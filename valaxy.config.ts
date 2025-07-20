@@ -37,10 +37,10 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       since: 2024,
-      beian: {
+      // beian: {
         // enable: true,
         // icp: '苏ICP备17038157号',
-      },
+      // },
     },
   },
 

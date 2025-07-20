@@ -6,9 +6,9 @@ export default defineSiteConfig({
   title: 'wlyのblog',
   author: {
     name: 'w乐意',
-    avatar: 'https://www.yunyoujun.cn/images/avatar.jpg',
+    avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg',
   },
-  subtitle: '你的笑像西瓜最中间那一勺的口感，点亮了一整个夏天星空也为你斑斓！',
+  subtitle: '你的笑像西瓜最中间那一勺的口感，点亮了一整个夏天星空也为你斑斓',
   description: '欢迎来到我的小窝！',
   social: [
     {
@@ -102,19 +102,19 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/QQ%E6%94%B6%E6%AC%BE%E7%A0%81.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },
       {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.png',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
