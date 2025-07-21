@@ -1,0 +1,1 @@
+import{B as s}from"./app.C8sP90Mn.js";import"./chunks/dayjs.Byk5cVHE.js";import"./animation.CtXs_WW4.js";const a="/assets/none.DLM1AMsD.jpg";function c(t,o=a){const r=t.target;r.setAttribute("data-src",r.src),r.src=o}function i(t){return s(t,{template:"YYYY-MM-DD HH:mm:ss"})}export{i as f,c as o};

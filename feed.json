@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "wlyのblog",
+    "home_page_url": "https://wlyff.top/",
+    "feed_url": "https://wlyff.top/feed.json",
+    "description": "欢迎来到我的小窝！",
+    "icon": "https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg",
+    "author": {
+        "name": "w乐意",
+        "url": "https://wlyff.top/"
+    },
+    "items": [
+        {
+            "id": "https://wlyff.top/posts/hello-valaxy",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/hello-valaxy\" target=\"_blank\">https://wlyff.top/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        }
+    ]
+}
