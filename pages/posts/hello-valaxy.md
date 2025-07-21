@@ -18,3 +18,17 @@ Write your first post!
 ## Usage
 
 Modify `valaxy.config.ts` to custom your blog.
+
+
+
+
+
+```python
+import os
+print(hello world)
+```
+
+
+$$
+\lim_{x \to 0} \frac{\sin x}{x} = 1
+$$

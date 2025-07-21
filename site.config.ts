@@ -6,7 +6,14 @@ export default defineSiteConfig({
   title: 'wlyのblog',
   author: {
     name: 'w乐意',
+    email: '2931366539@qq.com',
+    link: 'https://wlyff.top/',
+    // avatar: 'https://cdn.yunyoujun.cn/img/avatar.jpg',
     avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg',
+    status: {
+      emoji: '😀',
+      message: 'wlling to learn, willing to share',
+    },
   },
   subtitle: '你的笑像西瓜最中间那一勺的口感，点亮了一整个夏天星空也为你斑斓',
   description: '欢迎来到我的小窝！',
