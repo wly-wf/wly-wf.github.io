@@ -21,6 +21,13 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: 'w乐意的小站',
     },
 
+    bg_image: {
+      enable: true,
+      url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B89.png',
+      dark: '',
+      opacity: 0.5,
+    },
+
     pages: [
       {
         name: '我的小伙伴们',
@@ -30,7 +37,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
       {
         name: '喜欢的女孩子',
-        url: '/girls/',
+        url: '/girl/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
       },

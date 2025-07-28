@@ -2,6 +2,8 @@
 title: 关于站点
 ---
 
-Valaxy + valaxy-theme-yun Demo Site
+我第一次接触博客系统，巧合之下看到了云游君开发的Valaxy框架，感觉很好看，就试着部署了一下，纯小白，还在不断学习当中。
 
-- Default Theme: [valaxy-theme-yun](https://github.com/YunYouJun/valaxy/blob/main/packages/valaxy-theme-yun/)
+
+
+[Valaxy点这里](https://valaxy.site)

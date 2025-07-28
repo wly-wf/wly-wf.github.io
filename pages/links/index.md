@@ -7,3 +7,5 @@ random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+
+<https://www.yunyoujun.cn>
