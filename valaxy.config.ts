@@ -54,6 +54,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
+  
   siteConfig: {
     // 启用评论
     comment: {
