@@ -18,8 +18,8 @@ export default defineSiteConfig({
 
   favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg',
 
-  subtitle: '你的笑像西瓜最中间那一勺的口感，点亮了一整个夏天星空也为你斑斓',
-  description: '欢迎来到我的小窝！',
+  subtitle: '与你相遇 好幸运',
+  description: '欢迎来到我的小窝',
   social: [
     {
       name: '哔哩哔哩',

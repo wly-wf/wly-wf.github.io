@@ -36,7 +36,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: 'dodgerblue',
       },
       {
-        name: '喜欢的女孩子',
+        name: '最喜欢的女孩子',
         url: '/girl/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
