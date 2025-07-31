@@ -122,6 +122,11 @@ export default defineSiteConfig({
     },
   },
 
+  // 开启加密
+  encrypt: {
+    enable: true,
+  },
+
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
