@@ -30,6 +30,7 @@ declare module 'vue-router/auto-routes' {
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/daily-log-25-07-31': RouteRecordInfo<'/posts/daily-log-25-07-31', '/posts/daily-log-25-07-31', Record<never, never>, Record<never, never>>,
+    '/posts/daily-log-25-08-01': RouteRecordInfo<'/posts/daily-log-25-08-01', '/posts/daily-log-25-08-01', Record<never, never>, Record<never, never>>,
     '/posts/digtal-electronics-review-1': RouteRecordInfo<'/posts/digtal-electronics-review-1', '/posts/digtal-electronics-review-1', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
