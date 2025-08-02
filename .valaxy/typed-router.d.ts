@@ -29,10 +29,12 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
+    '/posts/daily-log 25-08-02': RouteRecordInfo<'/posts/daily-log 25-08-02', '/posts/daily-log 25-08-02', Record<never, never>, Record<never, never>>,
     '/posts/daily-log-25-07-31': RouteRecordInfo<'/posts/daily-log-25-07-31', '/posts/daily-log-25-07-31', Record<never, never>, Record<never, never>>,
     '/posts/daily-log-25-08-01': RouteRecordInfo<'/posts/daily-log-25-08-01', '/posts/daily-log-25-08-01', Record<never, never>, Record<never, never>>,
     '/posts/digtal-electronics-review-1': RouteRecordInfo<'/posts/digtal-electronics-review-1', '/posts/digtal-electronics-review-1', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
+    '/posts/self-change-and-future-planning': RouteRecordInfo<'/posts/self-change-and-future-planning', '/posts/self-change-and-future-planning', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
