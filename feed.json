@@ -1,0 +1,86 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "wlyのblog",
+    "home_page_url": "https://wlyff.top/",
+    "feed_url": "https://wlyff.top/feed.json",
+    "description": "欢迎来到我的小窝",
+    "icon": "https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg",
+    "author": {
+        "name": "w乐意",
+        "url": "https://wlyff.top/"
+    },
+    "items": [
+        {
+            "id": "https://wlyff.top/posts/daily-log 25-08-02",
+            "content_html": "<p>今天醒的比较早，七点多被我室友吵醒了，他饿了早起去吃早饭。后面我又继续睡了一会，做了一个梦，在梦里我梦见我和她和好啦，我高兴坏了，然后突然惊醒，发现这只是一个梦，情绪一下子就上来了，我差点又忍不住去找她了。好在我决定直接起床洗漱，这才压制住了心中想念她的情感。</p>\n<blockquote>\n<p>心理学实验发现，人与人之间不管隔着多远，都存在着一种神奇的磁场： <strong>你梦见一个人，很有可能是因为对方正在想你</strong>，是对方对你的这种思念，带动双方的脑电波互动，从而带动磁场，干扰你的睡眠。</p>\n</blockquote>\n<p>她一定也在想念我，对嘛。</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/daily-log 25-08-02\" target=\"_blank\">https://wlyff.top/posts/daily-log 25-08-02</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/daily-log 25-08-02",
+            "title": "心情随笔",
+            "date_modified": "2025-08-02T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        },
+        {
+            "id": "https://wlyff.top/posts/daily-log-25-07-31",
+            "content_html": "<p>今天是7月的最后一天，时间过得很快，一转眼大三也结束了。最近有点丧，大概是由于感情上的缘故，我从来没有对一段感情这么用心过。我不停的对自己反省，渴望找出原因，但很可能适得其反。这几天我看了很多关于<strong>亲密关系</strong>的文章，因为我很想挽回这段感情。</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/daily-log-25-07-31\" target=\"_blank\">https://wlyff.top/posts/daily-log-25-07-31</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/daily-log-25-07-31",
+            "title": "心情随笔",
+            "date_modified": "2025-07-31T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        },
+        {
+            "id": "https://wlyff.top/posts/daily-log-25-08-01",
+            "content_html": "<p>八月啦，八月的第一天，建军节，多么红色的日子，只可惜她不在身边，今天心情还是不好，昨天晚上的情绪太严重了，太难受了，忍不住又去问了她一下。看到她今天早上给我的回复，我心里算是好过了一些，我很相信她，从来如此。</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/daily-log-25-08-01\" target=\"_blank\">https://wlyff.top/posts/daily-log-25-08-01</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/daily-log-25-08-01",
+            "title": "心情随笔",
+            "date_modified": "2025-08-01T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        },
+        {
+            "id": "https://wlyff.top/posts/digtal-electronics-review-1",
+            "content_html": "<blockquote>\n<p>记录一下复习数电的过程。</p>\n</blockquote>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/digtal-electronics-review-1\" target=\"_blank\">https://wlyff.top/posts/digtal-electronics-review-1</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/digtal-electronics-review-1",
+            "title": "数电复习（一）",
+            "date_modified": "2025-07-31T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        },
+        {
+            "id": "https://wlyff.top/posts/listen-to-songs-locally-for-free",
+            "content_html": "<p>我是一个很喜欢听歌的人，尝试过很多主流的音乐软件，像什么QQ音乐、酷狗音乐、网易云音乐，但是他们都满足不了我的需求，经常会有版权问题，之前能听的歌不知道哪天就会不能听了。还有就是现在大多数歌都需要会员，会员到期后歌也不能听了。最主要的一个原因是，这些音乐软件太臃肿了，什么功能都往里面加，感觉听歌都变得次要了，存在种种不便。</p>\n<p>现在分享一下我的做法，个人体验还不错。</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/listen-to-songs-locally-for-free\" target=\"_blank\">https://wlyff.top/posts/listen-to-songs-locally-for-free</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/listen-to-songs-locally-for-free",
+            "title": "免费搭建本地音乐播放器",
+            "date_modified": "2025-07-30T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        },
+        {
+            "id": "https://wlyff.top/posts/self-change-and-future-planning",
+            "content_html": "<p>已经一个多星期了，还是忘不了。我想了很多，决心要改变，但发现以前的想法大多口说无凭，没有详细的计划，因此我想仔细把它们写下来，留做见证。</p>\n<p>前提是她和我复合嘞，我真的很喜欢她，不舍得她。</p>\n<br/><p>访问 <a href=\"https://wlyff.top/posts/self-change-and-future-planning\" target=\"_blank\">https://wlyff.top/posts/self-change-and-future-planning</a> 阅读全文。</p>",
+            "url": "https://wlyff.top/posts/self-change-and-future-planning",
+            "title": "自我改变和未来规划",
+            "date_modified": "2025-08-02T00:00:00.000Z",
+            "date_published": "2025-08-02T15:53:50.917Z",
+            "author": {
+                "name": "w乐意",
+                "url": "https://wlyff.top/"
+            }
+        }
+    ]
+}
