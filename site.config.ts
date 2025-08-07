@@ -11,7 +11,7 @@ export default defineSiteConfig({
     // avatar: 'https://cdn.yunyoujun.cn/img/avatar.jpg',
     avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F.jpg',
     status: {
-      emoji: '😀',
+      emoji: '😭',
       message: 'wlling to learn, willing to share',
     },
   },
