@@ -127,6 +127,10 @@ export default defineSiteConfig({
     enable: true,
   },
 
+  // 代码块高度限制
+  codeHeightLimit: 300,
+
+
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
