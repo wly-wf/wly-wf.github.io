@@ -2,6 +2,7 @@
 title: 心情随笔
 date: 2025-8-1
 update: 2025-8-1
+hide: true
 categories: 随笔
 tags:
   - 记录

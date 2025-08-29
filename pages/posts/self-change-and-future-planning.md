@@ -2,6 +2,7 @@
 title: 自我改变和未来规划
 date: 2025-8-2
 update: 2025-8-2
+hide: true
 categories: 随笔
 tags:
   - 改变

@@ -2,6 +2,7 @@
 title: 梦
 date: 2025-8-10
 update: 2025-8-10
+hide: true
 categories: 随笔
 tags:
   - 记录
