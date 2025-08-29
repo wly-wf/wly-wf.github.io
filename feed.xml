@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>wlyのblog</title>
+        <link>https://wlyff.top/</link>
+        <description>欢迎来到我的小窝</description>
+        <lastBuildDate>Fri, 29 Aug 2025 15:04:02 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <image>
+            <title>wlyのblog</title>
+            <url>https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A4%B4%E5%83%8F.jpg</url>
+            <link>https://wlyff.top/</link>
+        </image>
+        <copyright>CC BY-NC-SA 4.0 2025 © w乐意</copyright>
+        <atom:link href="https://wlyff.top/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[沙拉查词使用技巧]]></title>
+            <link>https://wlyff.top/posts/saladict-tips</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/saladict-tips</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<p>分享一个翻译的神器。</p>
+<p>这类工具其实有很多，比较好用的一般就是<a href="https://immersivetranslate.com"><strong>沉浸式翻译</strong></a>这个浏览器插件了，但最近又被爆出来会泄露用户数据。这次分享的一个神器是<a href="https://saladict.crimx.com"><strong>沙拉查词</strong></a>。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/saladict-tips" target="_blank">https://wlyff.top/posts/saladict-tips</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[模电复习（一）]]></title>
+            <link>https://wlyff.top/posts/analog-electronics-review-1</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/analog-electronics-review-1</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><strong>记录一下复习模电的过程。</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/analog-electronics-review-1" target="_blank">https://wlyff.top/posts/analog-electronics-review-1</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[祝你七夕快乐噢！]]></title>
+            <link>https://wlyff.top/posts/daily-log-25-08-29</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/daily-log-25-08-29</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<p><strong>七夕节快乐！等等我！</strong></p>
+<br/><p>访问 <a href="https://wlyff.top/posts/daily-log-25-08-29" target="_blank">https://wlyff.top/posts/daily-log-25-08-29</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[数电复习（一）]]></title>
+            <link>https://wlyff.top/posts/digtal-electronics-review-1</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/digtal-electronics-review-1</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><strong>记录一下复习数电的过程。</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/digtal-electronics-review-1" target="_blank">https://wlyff.top/posts/digtal-electronics-review-1</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[离散数学复习（一）]]></title>
+            <link>https://wlyff.top/posts/discrete-mathematics-review-1</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/discrete-mathematics-review-1</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p><strong>记录一下复习离散数学的过程</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/discrete-mathematics-review-1" target="_blank">https://wlyff.top/posts/discrete-mathematics-review-1</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[Gemini使用技巧]]></title>
+            <link>https://wlyff.top/posts/gemini-tips</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/gemini-tips</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Google的Gemini大模型应该算得上是比较好用的了，比较出名就是<strong>Gemini 2.5 Flash</strong>和<strong>Gemini 2.5 Pro</strong>。最主要的是它可以免费使用（每天有一定的免费额度，但对于普通人来说已经足够用了）。在2025年6月30日前进行学生认证，就可以免费使用15个月的超强版<strong>Gemini 2.5 Pro</strong>模型，但是我没有薅到羊毛。现在分享一些Gemini的使用技巧。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/gemini-tips" target="_blank">https://wlyff.top/posts/gemini-tips</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+        <item>
+            <title><![CDATA[免费搭建本地音乐播放器]]></title>
+            <link>https://wlyff.top/posts/listen-to-songs-locally-for-free</link>
+            <guid isPermaLink="false">https://wlyff.top/posts/listen-to-songs-locally-for-free</guid>
+            <pubDate>Fri, 29 Aug 2025 15:02:53 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我是一个很喜欢听歌的人，尝试过很多主流的音乐软件，像什么QQ音乐、酷狗音乐、网易云音乐，但是他们都满足不了我的需求，经常会有版权问题，之前能听的歌不知道哪天就会不能听了。还有就是现在大多数歌都需要会员，会员到期后歌也不能听了。最主要的一个原因是，这些音乐软件太臃肿了，什么功能都往里面加，感觉听歌都变得次要了，存在种种不便。</p>
+<p>现在分享一下我的做法，个人体验还不错。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/listen-to-songs-locally-for-free" target="_blank">https://wlyff.top/posts/listen-to-songs-locally-for-free</a> 阅读全文。</p>]]></content:encoded>
+            <author>2931366539@qq.com (w乐意)</author>
+        </item>
+    </channel>
+</rss>
