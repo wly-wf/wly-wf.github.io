@@ -42,7 +42,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/memories-are-not-born-of-void': RouteRecordInfo<'/posts/memories-are-not-born-of-void', '/posts/memories-are-not-born-of-void', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
     '/posts/self-change-and-future-planning': RouteRecordInfo<'/posts/self-change-and-future-planning', '/posts/self-change-and-future-planning', Record<never, never>, Record<never, never>>,
-    '/posts/words-I-wanted-to-say': RouteRecordInfo<'/posts/words-I-wanted-to-say', '/posts/words-I-wanted-to-say', Record<never, never>, Record<never, never>>,
+    '/posts/to-my-21st-year': RouteRecordInfo<'/posts/to-my-21st-year', '/posts/to-my-21st-year', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
