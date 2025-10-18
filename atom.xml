@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wlyff.top/</id>
+    <title>wlyのblog</title>
+    <updated>2025-10-18T07:36:50.546Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>w乐意</name>
+        <email>2931366539@qq.com</email>
+        <uri>https://wlyff.top/</uri>
+    </author>
+    <link rel="alternate" href="https://wlyff.top/"/>
+    <link rel="self" href="https://wlyff.top/atom.xml"/>
+    <subtitle>欢迎来到我的小窝</subtitle>
+    <logo>https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg</logo>
+    <icon>https://wlyff.top/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © w乐意</rights>
+    <entry>
+        <title type="html"><![CDATA[示例文章]]></title>
+        <id>https://wlyff.top/posts/Untitled</id>
+        <link href="https://wlyff.top/posts/Untitled"/>
+        <updated>2025-10-18T07:35:39.536Z</updated>
+        <summary type="html"><![CDATA[演示如何在Markdown中使用Vue组件]]></summary>
+        <content type="html"><![CDATA[<h1>Nuxt Content 中的自定义组件示例</h1>
+<details>
+  <summary style="font-weight: bold; background-color: #f0f8f<br/><p>访问 <a href="https://wlyff.top/posts/Untitled" target="_blank">https://wlyff.top/posts/Untitled</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[模电复习（一）]]></title>
+        <id>https://wlyff.top/posts/analog-electronics-review-1</id>
+        <link href="https://wlyff.top/posts/analog-electronics-review-1"/>
+        <updated>2025-08-09T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>记录一下复习模电的过程。</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/analog-electronics-review-1" target="_blank">https://wlyff.top/posts/analog-electronics-review-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数电复习（一）]]></title>
+        <id>https://wlyff.top/posts/digtal-electronics-review-1</id>
+        <link href="https://wlyff.top/posts/digtal-electronics-review-1"/>
+        <updated>2025-07-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>记录一下复习数电的过程。</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/digtal-electronics-review-1" target="_blank">https://wlyff.top/posts/digtal-electronics-review-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[离散数学复习（一）]]></title>
+        <id>https://wlyff.top/posts/discrete-mathematics-review-1</id>
+        <link href="https://wlyff.top/posts/discrete-mathematics-review-1"/>
+        <updated>2025-08-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p><strong>记录一下复习离散数学的过程</strong></p>
+</blockquote>
+<br/><p>访问 <a href="https://wlyff.top/posts/discrete-mathematics-review-1" target="_blank">https://wlyff.top/posts/discrete-mathematics-review-1</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini使用技巧]]></title>
+        <id>https://wlyff.top/posts/gemini-tips</id>
+        <link href="https://wlyff.top/posts/gemini-tips"/>
+        <updated>2025-08-07T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Google的Gemini大模型应该算得上是比较好用的了，比较出名就是<strong>Gemini 2.5 Flash</strong>和<strong>Gemini 2.5 Pro</strong>。最主要的是它可以免费使用（每天有一定的免费额度，但对于普通人来说已经足够用了）。在2025年6月30日前进行学生认证，就可以免费使用15个月的超强版<strong>Gemini 2.5 Pro</strong>模型，但是我没有薅到羊毛。现在分享一些Gemini的使用技巧。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/gemini-tips" target="_blank">https://wlyff.top/posts/gemini-tips</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub主页美化教程]]></title>
+        <id>https://wlyff.top/posts/github-home-bea-tutorial</id>
+        <link href="https://wlyff.top/posts/github-home-bea-tutorial"/>
+        <updated>2025-10-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://wlyff.top/posts/github-home-bea-tutorial" target="_blank">https://wlyff.top/posts/github-home-bea-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费搭建本地音乐播放器]]></title>
+        <id>https://wlyff.top/posts/listen-to-songs-locally-for-free</id>
+        <link href="https://wlyff.top/posts/listen-to-songs-locally-for-free"/>
+        <updated>2025-07-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>我是一个很喜欢听歌的人，尝试过很多主流的音乐软件，像什么QQ音乐、酷狗音乐、网易云音乐，但是他们都满足不了我的需求，经常会有版权问题，之前能听的歌不知道哪天就会不能听了。还有就是现在大多数歌都需要会员，会员到期后歌也不能听了。最主要的一个原因是，这些音乐软件太臃肿了，什么功能都往里面加，感觉听歌都变得次要了，存在种种不便。</p>
+<p>现在分享一下我的做法，个人体验还不错。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/listen-to-songs-locally-for-free" target="_blank">https://wlyff.top/posts/listen-to-songs-locally-for-free</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沙拉查词使用技巧]]></title>
+        <id>https://wlyff.top/posts/saladict-tips</id>
+        <link href="https://wlyff.top/posts/saladict-tips"/>
+        <updated>2025-08-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>分享一个翻译的神器。</p>
+<p>这类工具其实有很多，比较好用的一般就是<a href="https://immersivetranslate.com"><strong>沉浸式翻译</strong></a>这个浏览器插件了，但最近又被爆出来会泄露用户数据。这次分享的一个神器是<a href="https://saladict.crimx.com"><strong>沙拉查词</strong></a>。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/saladict-tips" target="_blank">https://wlyff.top/posts/saladict-tips</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写在二十岁的尾巴上]]></title>
+        <id>https://wlyff.top/posts/to-my-21st-year</id>
+        <link href="https://wlyff.top/posts/to-my-21st-year"/>
+        <updated>2025-10-04T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>祝自己生日快乐！</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/to-my-21st-year" target="_blank">https://wlyff.top/posts/to-my-21st-year</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vim使用教程]]></title>
+        <id>https://wlyff.top/posts/vim-usage-tutorial</id>
+        <link href="https://wlyff.top/posts/vim-usage-tutorial"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Vim 是一个高度可配置的文本编辑器，旨在实现高效的文本编辑。它是大多数 UNIX 系统中分发的 vi 编辑器的改进版本。</p>
+<p>Vim 通常被称为“程序员的编辑器”，对于编程非常有用，以至于许多人认为它是一个完整的 IDE。但这不仅仅适用于程序员。Vim 非常适合各种文本编辑，从撰写电子邮件到编辑配置文件。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/vim-usage-tutorial" target="_blank">https://wlyff.top/posts/vim-usage-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zotero使用教程]]></title>
+        <id>https://wlyff.top/posts/zotero-usage-tutorial</id>
+        <link href="https://wlyff.top/posts/zotero-usage-tutorial"/>
+        <updated>2025-10-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>最近了解到Zotero这一个文献管理软件，记录一下它的使用教程</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/zotero-usage-tutorial" target="_blank">https://wlyff.top/posts/zotero-usage-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2025-10-18T07:35:39.536Z</published>
+    </entry>
+</feed>
