@@ -8,14 +8,14 @@ export default defineSiteConfig({
     name: 'w乐意',
     email: '2931366539@qq.com',
     link: 'https://wlyff.top/',
-    // avatar: 'https://cdn.yunyoujun.cn/img/avatar.jpg',
     avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg',
     status: {
       emoji: '😭',
       message: 'wlling to learn, willing to share',
     },
   },
-
+  mode: 'auto',
+  lastUpdated: true,
   favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg',
 
   subtitle: '与你相遇 好幸运',
@@ -33,83 +33,25 @@ export default defineSiteConfig({
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
-    // {
-    //   name: '知乎',
-    //   link: 'https://www.zhihu.com/people/yunyoujun/',
-    //   icon: 'i-ri-zhihu-line',
-    //   color: '#0084FF',
-    // },
     {
       name: 'E-Mail',
       link: 'mailto:2931366539@qq.com',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
-    // {
-    //   name: 'RSS',
-    //   link: '/atom.xml',
-    //   icon: 'i-ri-rss-line',
-    //   color: 'orange',
-    // },
-    // {
-    //   name: 'QQ 群 1050458482',
-    //   link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
-    //   icon: 'i-ri-qq-line',
-    //   color: '#12B7F5',
-    // },
-    // {
-    //   name: '微博',
-    //   link: 'https://weibo.com/jizhideyunyoujun',
-    //   icon: 'i-ri-weibo-line',
-    //   color: '#E6162D',
-    // },
-    // {
-    //   name: '豆瓣',
-    //   link: 'https://www.douban.com/people/yunyoujun/',
-    //   icon: 'i-ri-douban-line',
-    //   color: '#007722',
-    // },
-    // {
-    //   name: '网易云音乐',
-    //   link: 'https://music.163.com/#/user/home?id=247102977',
-    //   icon: 'i-ri-netease-cloud-music-line',
-    //   color: '#C20C0C',
-    // },
-    // {
-    // {
-    //   name: '微信公众号',
-    //   link: 'https://cdn.yunyoujun.cn/img/about/white-qrcode-and-search.jpg',
-    //   icon: 'i-ri-wechat-2-line',
-    //   color: '#1AAD19',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   link: 'https://twitter.com/YunYouJun',
-    //   icon: 'i-ri-twitter-x-fill',
-    //   color: 'black',
-    // },
-    // {
-    //   name: 'Telegram Channel',
-    //   link: 'https://t.me/elpsycn',
-    //   icon: 'i-ri-telegram-line',
-    //   color: '#0088CC',
-    // },
-    // {
-    //   name: 'Travelling',
-    //   link: 'https://www.travellings.cn/go.html',
-    //   icon: 'i-ri-train-line',
-    //   color: 'var(--va-c-text)',
-    // },
   ],
 
+  // 开启搜索功能
   search: {
-    enable: false,
+    enable: true,
+    type: 'fuse',
+  },
+  fuse: {
+    options: {
+      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+    },
   },
 
-  mediumZoom: {
-    enable: true,
-  },
-    
   //开启阅读统计
   statistics: {
     enable: true,
@@ -129,7 +71,6 @@ export default defineSiteConfig({
 
   // 代码块高度限制
   codeHeightLimit: 300,
-
 
   sponsor: {
     enable: true,
@@ -156,3 +97,5 @@ export default defineSiteConfig({
     ],
   },
 })
+
+

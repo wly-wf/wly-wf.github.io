@@ -1,14 +1,17 @@
 ---
 title: 示例文章
 description: 演示如何在Markdown中使用Vue组件
+cover: https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg
 ---
 
 # Nuxt Content 中的自定义组件示例
 
-这是一个普通的 Markdown 段落。我们可以通过在 Markdown 文件中直接使用组件标签来插入 Vue 组件。
 
-例如，下面是我们的不蒜子统计组件：
 
-<BsZComponent />
-
-您应该能看到实时的网站访问统计数据。
+<details>
+  <summary style="font-weight: bold; background-color: #f0f8ff;">小白看过来!</summary> <!-- 在这里添加 color: black; -->
+  <div style="padding-left: 1.5em; margin-top: 0.5em;">
+    <p style="color: black;">什么是VSCode?</p> <!-- 在这里添加 color: black; -->
+    <p style="color: black;"><strong><span style="color: black;">Visual Studio Code</span></strong>，一款炒鸡方便的代码编辑器，建议大家人手一个</p>
+  </div>
+</details>

@@ -38,6 +38,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/dream': RouteRecordInfo<'/posts/dream', '/posts/dream', Record<never, never>, Record<never, never>>,
     '/posts/er-radical': RouteRecordInfo<'/posts/er-radical', '/posts/er-radical', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
+    '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/posts/memories-are-not-born-of-void': RouteRecordInfo<'/posts/memories-are-not-born-of-void', '/posts/memories-are-not-born-of-void', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
@@ -48,4 +49,148 @@ declare module 'vue-router/auto-routes' {
     '/posts/zotero-usage-tutorial': RouteRecordInfo<'/posts/zotero-usage-tutorial', '/posts/zotero-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
+
+  /**
+   * Route file to route info map by unplugin-vue-router.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * Each key is a file path relative to the project root with 2 properties:
+   * - routes: union of route names of the possible routes when in this page (passed to useRoute<...>())
+   * - views: names of nested views (can be passed to <RouterView name="...">)
+   *
+   * @internal
+   */
+  export interface _RouteFileInfoMap {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.17_typescript@5.8.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
+      routes: '/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy@0.26.6_@babel+parser_ab051a6db89bcf14e66e1fd9379c85dd/node_modules/valaxy/client/pages/[...path].vue': {
+      routes: '/[...path]'
+      views: never
+    }
+    'pages/404.md': {
+      routes: '/404'
+      views: never
+    }
+    'pages/about/index.md': {
+      routes: '/about/'
+      views: never
+    }
+    'pages/about/site.md': {
+      routes: '/about/site'
+      views: never
+    }
+    'pages/archives/index.md': {
+      routes: '/archives/'
+      views: never
+    }
+    'pages/categories/index.md': {
+      routes: '/categories/'
+      views: never
+    }
+    'pages/girl/index.md': {
+      routes: '/girl/'
+      views: never
+    }
+    'pages/links/index.md': {
+      routes: '/links/'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.17_typescript@5.8.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+      routes: '/page/[page]'
+      views: never
+    }
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.6_vue@3.5.17_typescript@5.8.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+      routes: '/posts/'
+      views: never
+    }
+    'pages/posts/analog-electronics-review-1.md': {
+      routes: '/posts/analog-electronics-review-1'
+      views: never
+    }
+    'pages/posts/daily-log 25-08-02.md': {
+      routes: '/posts/daily-log 25-08-02'
+      views: never
+    }
+    'pages/posts/daily-log-25-07-31.md': {
+      routes: '/posts/daily-log-25-07-31'
+      views: never
+    }
+    'pages/posts/daily-log-25-08-01.md': {
+      routes: '/posts/daily-log-25-08-01'
+      views: never
+    }
+    'pages/posts/digtal-electronics-review-1.md': {
+      routes: '/posts/digtal-electronics-review-1'
+      views: never
+    }
+    'pages/posts/discrete-mathematics-review-1.md': {
+      routes: '/posts/discrete-mathematics-review-1'
+      views: never
+    }
+    'pages/posts/dream.md': {
+      routes: '/posts/dream'
+      views: never
+    }
+    'pages/posts/er-radical.md': {
+      routes: '/posts/er-radical'
+      views: never
+    }
+    'pages/posts/gemini-tips.md': {
+      routes: '/posts/gemini-tips'
+      views: never
+    }
+    'pages/posts/github-home-bea-tutorial.md': {
+      routes: '/posts/github-home-bea-tutorial'
+      views: never
+    }
+    'pages/posts/listen-to-songs-locally-for-free.md': {
+      routes: '/posts/listen-to-songs-locally-for-free'
+      views: never
+    }
+    'pages/posts/memories-are-not-born-of-void.md': {
+      routes: '/posts/memories-are-not-born-of-void'
+      views: never
+    }
+    'pages/posts/saladict-tips.md': {
+      routes: '/posts/saladict-tips'
+      views: never
+    }
+    'pages/posts/self-change-and-future-planning.md': {
+      routes: '/posts/self-change-and-future-planning'
+      views: never
+    }
+    'pages/posts/to-my-21st-year.md': {
+      routes: '/posts/to-my-21st-year'
+      views: never
+    }
+    'pages/posts/Untitled.md': {
+      routes: '/posts/Untitled'
+      views: never
+    }
+    'pages/posts/vim-usage-tutorial.md': {
+      routes: '/posts/vim-usage-tutorial'
+      views: never
+    }
+    'pages/posts/zotero-usage-tutorial.md': {
+      routes: '/posts/zotero-usage-tutorial'
+      views: never
+    }
+    'pages/tags/index.md': {
+      routes: '/tags/'
+      views: never
+    }
+  }
+
+  /**
+   * Get a union of possible route names in a certain route component file.
+   * Used by the volar plugin to automatically type useRoute()
+   *
+   * @internal
+   */
+  export type _RouteNamesForFilePath<FilePath extends string> =
+    _RouteFileInfoMap extends Record<FilePath, infer Info>
+      ? Info['routes']
+      : keyof RouteNamedMap
 }
