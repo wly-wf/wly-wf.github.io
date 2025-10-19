@@ -20,6 +20,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     banner: {
       enable: true,
       title: 'w乐意的小站',
+      cloud: {
+        enable: true,
+      }
     },
 
     bg_image: {
@@ -27,6 +30,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B81.png',
       dark: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B8dark.jpg',
       opacity: 1,
+    },
+
+    colors: {
+      primary: '#e16da7ff',
     },
 
     nav: [
@@ -68,7 +75,12 @@ export default defineValaxyConfig<UserThemeConfig>({
     footer: {
       since: 2025,
       icon: {
+        enable: true,
+        name: 'i-ri-heart-line',
+        color: '#ee4978ff',
         animated: true,
+        url: 'https://wlyblog.top',
+        title: 'Made with ❤️ by w乐意',
       },
       powered: false,
       beian: {

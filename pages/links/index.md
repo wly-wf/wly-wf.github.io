@@ -1,11 +1,28 @@
 ---
-title: 我的小伙伴们
-keywords: 链接
-description: 云游的小伙伴们
-links: https://www.yunyoujun.cn/friends/links.json
+title: 大佬们
+keywords: 友链
+icon: i-ri-links-line
+description: 我的小伙伴们
 random: true
+nav: false
+toc: false
+aside: false
+links: /links.json
 ---
 
-<YunLinks :links="frontmatter.links" :random="frontmatter.random" />
+<YunLinks :links=frontmatter.links :random=frontmatter.random />
 
-<https://www.yunyoujun.cn>
+# 友链说明
+
+友链为随机顺序展示，希望交换友链的话可以按此格式在评论区留下信息：
+
+```json
+{
+    "url": "https://wlyff.top",
+    "avatar": "https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg",
+    "name": "w乐意",
+    "blog": "wlyのblog",
+    "desc": "欢迎来到我的小窝",
+    "color": "#e16da7"
+}
+```

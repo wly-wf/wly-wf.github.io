@@ -85,6 +85,7 @@ license: {
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
+    description: '如果你喜欢的话，就请随意打赏我吧！',
     methods: [
       {
         name: '支付宝',
