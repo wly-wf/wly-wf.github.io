@@ -1,6 +1,7 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
 import { addonWaline } from 'valaxy-addon-waline'
+// import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
 const safelist = [
@@ -24,40 +25,28 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image: {
       enable: true,
       url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B81.png',
-      dark: '',
-      opacity: 0.9,
+      dark: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B8dark.jpg',
+      opacity: 1,
     },
 
     nav: [
       {  
-        text: '博客',  
-        link: '/posts/',  
-        icon: 'i-ri-article-line',  
+        text: '博客',  link: '/posts/',  icon: 'i-ri-article-line',  
       },
       {  
-        text: '归档',  
-        link: '/archives/',  
-        icon: 'i-ri-archive-line',  
+        text: '归档',  link: '/archives/',  icon: 'i-ri-archive-line',  
       },  
       {  
-        text: '分类',  
-        link: '/categories/',  
-        icon: 'i-ri-folder-2-line',  
+        text: '分类',  link: '/categories/',  icon: 'i-ri-folder-2-line',  
       },  
       {  
-        text: '标签',  
-        link: '/tags/',  
-        icon: 'i-ri-price-tag-3-line',  
+        text: '标签',  link: '/tags/',  icon: 'i-ri-price-tag-3-line',  
       },
       {
-        text: '友链',
-        link: '/links/',
-        icon: 'i-ri-links-line',
+        text: '友链',link: '/links/',icon: 'i-ri-links-line',
       },
       {
-        text: '关于我',
-        link: '/about/',
-        icon: 'i-ri-user-line',
+        text: '关于我',link: '/about/',icon: 'i-ri-user-line',
       },
     ],
 
@@ -91,19 +80,27 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
-  
   siteConfig: {
     // 启用评论
     comment: {
       enable: true
     },
   },
-  // 设置 valaxy-addon-waline 配置项
+
   addons: [
     addonWaline({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
       serverURL: 'https://walineblog-topaz.vercel.app',
     }),
+    // addonMeting({
+    //   global: true,
+    //   // Meting 配置项，参考 https://metingjs.github.io/meting/#/options
+    //   props: {
+    //     id: '2619366284',
+    //     server: 'netease',
+    //     type: 'playlist',
+    //   },
+    // }),
   ],
 
   

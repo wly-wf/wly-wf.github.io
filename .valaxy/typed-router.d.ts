@@ -45,6 +45,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/self-change-and-future-planning': RouteRecordInfo<'/posts/self-change-and-future-planning', '/posts/self-change-and-future-planning', Record<never, never>, Record<never, never>>,
     '/posts/to-my-21st-year': RouteRecordInfo<'/posts/to-my-21st-year', '/posts/to-my-21st-year', Record<never, never>, Record<never, never>>,
     '/posts/Untitled': RouteRecordInfo<'/posts/Untitled', '/posts/Untitled', Record<never, never>, Record<never, never>>,
+    '/posts/valaxy-usage-tutorial': RouteRecordInfo<'/posts/valaxy-usage-tutorial', '/posts/valaxy-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/vim-usage-tutorial': RouteRecordInfo<'/posts/vim-usage-tutorial', '/posts/vim-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/zotero-usage-tutorial': RouteRecordInfo<'/posts/zotero-usage-tutorial', '/posts/zotero-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
@@ -167,6 +168,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/Untitled.md': {
       routes: '/posts/Untitled'
+      views: never
+    }
+    'pages/posts/valaxy-usage-tutorial.md': {
+      routes: '/posts/valaxy-usage-tutorial'
       views: never
     }
     'pages/posts/vim-usage-tutorial.md': {

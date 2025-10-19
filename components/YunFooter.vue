@@ -8,8 +8,8 @@ useScriptTag('//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
 <template>
   <YunFooter>
     <!-- 自定义页脚内容 -->
-    <a href="https://icp.gov.moe/?keyword=20250936" target="_blank">萌ICP备20250936号</a>
-    <!-- <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
-    <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人次</div> -->
+    <a href="https://icp.gov.moe/?keyword=20250936" target="_blank" style="color: pink;">萌ICP备20250936号</a>
+    <div>本站总访问量 <span id="busuanzi_value_site_pv" /> 次</div>
+    <div>本站访客数 <span id="busuanzi_value_site_uv" /> 人次</div>
   </YunFooter>
 </template>

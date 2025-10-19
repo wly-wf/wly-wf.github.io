@@ -34,10 +34,16 @@ export default defineSiteConfig({
       color: '#6e5494',
     },
     {
+      name: 'Steam',
+      link: 'https://steamcommunity.com/id/wly005/',
+      icon: 'i-ri-steam-line',
+      color: '#32769bff',
+    },
+    {
       name: 'E-Mail',
       link: 'mailto:2931366539@qq.com',
       icon: 'i-ri-mail-line',
-      color: '#8E71C1',
+      color: '#d1c844ff',
     },
   ],
 
@@ -71,6 +77,10 @@ export default defineSiteConfig({
 
   // 代码块高度限制
   codeHeightLimit: 300,
+
+license: {
+    enabled: false,
+  },
 
   sponsor: {
     enable: true,
