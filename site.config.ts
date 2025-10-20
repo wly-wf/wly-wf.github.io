@@ -115,7 +115,7 @@ export default defineSiteConfig({
         icon: 'i-ri-alipay-line',
       },
       {
-        name: 'QQ支付',
+        name: 'QQ 支付',
         url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/qqpay.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',

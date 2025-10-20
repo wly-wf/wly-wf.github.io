@@ -79,7 +79,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       hitokoto: {
         enable: true,
         api: 'https://v1.hitokoto.cn/?c=d&c=h&c=i&c=j&c=k&c=l',
-      }
+      },
     },
 
     footer: {
