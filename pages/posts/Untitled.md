@@ -1,7 +1,7 @@
 ---
 title: 示例文章
 description: 演示如何在Markdown中使用Vue组件
-cover: https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg
+cover: https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/light.png
 ---
 
 # Nuxt Content 中的自定义组件示例

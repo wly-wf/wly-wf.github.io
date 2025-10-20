@@ -22,11 +22,7 @@ tags:
 node -v
 ```
 
-
-
 > 在Windows下打开命令行：按下Win+R，打开运行，输入`cmd`
-
-
 
 ### 创建Valaxy
 
@@ -76,8 +72,6 @@ pnpm create valaxy
 ```bash
 pnpm run dev
 ```
-
-
 
 ## 使用-配置Valaxy
 

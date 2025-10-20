@@ -22,13 +22,14 @@ export default defineValaxyConfig<UserThemeConfig>({
       title: 'w乐意的小站',
       cloud: {
         enable: true,
-      }
+      },
+      duration: 500,
     },
 
     bg_image: {
       enable: true,
-      url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B81.png',
-      dark: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A3%81%E7%BA%B8dark.jpg',
+      url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/light.png',
+      dark: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/dark.png',
       opacity: 1,
     },
 
@@ -72,7 +73,19 @@ export default defineValaxyConfig<UserThemeConfig>({
       },
     ],
 
+    say: {
+      enable: true,
+      api: 'https://el-bot-api.vercel.app/api/words/wanan',
+      hitokoto: {
+        enable: true,
+        api: 'https://v1.hitokoto.cn/?c=d&c=h&c=i&c=j&c=k&c=l',
+      }
+    },
+
     footer: {
+      cloud: {
+        enable: false,
+      },
       since: 2025,
       icon: {
         enable: true,
@@ -80,7 +93,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         color: '#ee4978ff',
         animated: true,
         url: 'https://wlyblog.top',
-        title: 'Made with ❤️ by w乐意',
+        title: 'Made with ❤️ w乐意',
       },
       powered: false,
       beian: {
@@ -92,13 +105,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
-  siteConfig: {
-    // 启用评论
-    comment: {
-      enable: true
-    },
-  },
-
+  
   addons: [
     addonWaline({
       // Waline 配置项，参考 https://waline.js.org/reference/client/props.html

@@ -2,24 +2,30 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://wlyff.top/',
+  timezone: 'Asia/Shanghai',
   lang: 'zh-CN',
+  // 站点标题
   title: 'wlyのblog',
+  // 站点副标题
+  subtitle: '与你相遇 好幸运',
+  // 站点描述
+  description: '欢迎来到我的小窝',
+  // 博客作者
   author: {
     name: 'w乐意',
     email: '2931366539@qq.com',
     link: 'https://wlyff.top/',
-    avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg',
+    avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.jpg',
     status: {
-      emoji: '😭',
+      emoji: '😊',
       message: 'wlling to learn, willing to share',
     },
   },
   mode: 'auto',
   lastUpdated: true,
-  favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg',
+  favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.jpg',
 
-  subtitle: '与你相遇 好幸运',
-  description: '欢迎来到我的小窝',
+  // 社交链接
   social: [
     {
       name: '哔哩哔哩',
@@ -47,7 +53,7 @@ export default defineSiteConfig({
     },
   ],
 
-  // 开启搜索功能
+  // 搜索功能
   search: {
     enable: true,
     type: 'fuse',
@@ -58,7 +64,12 @@ export default defineSiteConfig({
     },
   },
 
-  //开启阅读统计
+  // 开启评论
+  comment: {
+    enable: true,
+  },
+
+  // 开启阅读统计
   statistics: {
     enable: true,
     readTime: {
@@ -78,32 +89,36 @@ export default defineSiteConfig({
   // 代码块高度限制
   codeHeightLimit: 300,
 
-license: {
+  license: {
     enabled: false,
   },
 
+  // 每页文章数量
+  pageSize: 6,
+
+  // 赞助
   sponsor: {
     enable: true,
     title: '我很可爱，请给我钱！',
     description: '如果你喜欢的话，就请随意打赏我吧！',
     methods: [
       {
+        name: '微信支付',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/wechatpay.png',
+        color: '#2DC100',
+        icon: 'i-ri-wechat-pay-line',
+      },
+      {
         name: '支付宝',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE%E7%A0%81.png',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/alipay.png',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
-        name: 'QQ 支付',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/QQ%E6%94%B6%E6%AC%BE%E7%A0%81.png',
+        name: 'QQ支付',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/qqpay.png',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
-      },
-      {
-        name: '微信支付',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE%E7%A0%81.png',
-        color: '#2DC100',
-        icon: 'i-ri-wechat-pay-line',
       },
     ],
   },
