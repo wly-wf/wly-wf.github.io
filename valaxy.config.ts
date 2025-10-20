@@ -1,6 +1,8 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-import { addonWaline } from 'valaxy-addon-waline'
+import { addonComponents } from 'valaxy-addon-components'
+// import { addonWaline } from 'valaxy-addon-waline'
+import { addonTwikoo } from 'valaxy-addon-twikoo'
 // import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
@@ -95,7 +97,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: 'https://wlyblog.top',
         title: 'Made with ❤️ w乐意',
       },
-      powered: false,
+      powered: true,
       beian: {
         enable: false,
         icp: '萌ICP备20250936号',
@@ -107,10 +109,14 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   
   addons: [
-    addonWaline({
-      // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
-      serverURL: 'https://walineblog-topaz.vercel.app',
+    addonComponents(),
+    addonTwikoo({
+      envId: 'https://wlyblogtwikoo.netlify.app/.netlify/functions/twikoo', // 填写你的环境 ID
     }),
+    // addonWaline({
+    //   // Waline 配置项，参考 https://waline.js.org/reference/client/props.html
+    //   serverURL: 'https://walineblog-topaz.vercel.app',
+    // }),
     // addonMeting({
     //   global: true,
     //   // Meting 配置项，参考 https://metingjs.github.io/meting/#/options
@@ -121,6 +127,5 @@ export default defineValaxyConfig<UserThemeConfig>({
     //   },
     // }),
   ],
-
   
 })

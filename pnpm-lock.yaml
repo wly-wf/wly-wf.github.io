@@ -17,6 +17,9 @@ importers:
       valaxy-addon-meting:
         specifier: ^0.1.4
         version: 0.1.4
+      valaxy-addon-twikoo:
+        specifier: ^0.0.3
+        version: 0.0.3(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))
       valaxy-addon-waline:
         specifier: ^0.2.1
         version: 0.2.1(typescript@5.8.3)(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))
@@ -3475,6 +3478,11 @@ packages:
 
   valaxy-addon-meting@0.1.4:
     resolution: {integrity: sha512-aTOCswBIg1/MOIC1vZ7ctaZOOEueVN99tEurAxukq15kJtqyps2/XqZw7Bjvik5LNbHtZd+TzmH+vrvhA/HF5w==}
+
+  valaxy-addon-twikoo@0.0.3:
+    resolution: {integrity: sha512-8ISPqSF3uto8jCceaDuGzeq1utJuH3oJ3mqtz9h1lQhXkP3jwReh8Sa3bnfhHlcfCUCoNK2E5dj8CNK2tVgHpg==}
+    peerDependencies:
+      valaxy: latest
 
   valaxy-addon-waline@0.2.1:
     resolution: {integrity: sha512-A95cnjyAsdypP/QJWIYbfqPyCOhGeMcbFfqSZnJxdAutUdgHH3gQBRrUM6G+/4KR6YHYmk2thNrpGRlGC6CWLg==}
@@ -7622,6 +7630,10 @@ snapshots:
   valaxy-addon-components@0.1.0: {}
 
   valaxy-addon-meting@0.1.4: {}
+
+  valaxy-addon-twikoo@0.0.3(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)):
+    dependencies:
+      valaxy: 0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
 
   valaxy-addon-waline@0.2.1(typescript@5.8.3)(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)):
     dependencies:
