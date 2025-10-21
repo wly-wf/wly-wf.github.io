@@ -90,7 +90,7 @@ export default defineSiteConfig({
   codeHeightLimit: 300,
 
   license: {
-    enabled: false,
+    enabled: true,
   },
 
   // 每页文章数量

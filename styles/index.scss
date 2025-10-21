@@ -1,1 +1,42 @@
 // you can custom css here
+
+.site-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.stat-line {
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: #555;
+}
+
+.count-badge {
+  display: inline-block;
+  padding: 1px 7px;
+  margin: 0 5px;
+  border-radius: 10px;
+  font-size: 1em;
+  color: yellow;
+  background-image: linear-gradient(120deg, #e247ed 0%, #ed0a0afc 100%);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+.live-time-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 16px;
+  color: yellow;
+  font-size: 1em;
+  background-image: linear-gradient(120deg, #e247ed 0%, #ed0a0afc 100%);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  
+  .VCLiveTime {
+    color: yellow;
+  }
+}

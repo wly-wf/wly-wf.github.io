@@ -86,7 +86,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       cloud: {
-        enable: false,
+        enable: true,
       },
       since: 2025,
       icon: {
