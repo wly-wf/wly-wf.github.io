@@ -23,28 +23,27 @@ declare module 'vue-router/auto-routes' {
     '/404': RouteRecordInfo<'/404', '/404', Record<never, never>, Record<never, never>>,
     '/about/': RouteRecordInfo<'/about/', '/about', Record<never, never>, Record<never, never>>,
     '/about/site': RouteRecordInfo<'/about/site', '/about/site', Record<never, never>, Record<never, never>>,
+    '/albums/': RouteRecordInfo<'/albums/', '/albums', Record<never, never>, Record<never, never>>,
+    '/albums/sky': RouteRecordInfo<'/albums/sky', '/albums/sky', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
     '/girl/': RouteRecordInfo<'/girl/', '/girl', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/analog-electronics-review-1': RouteRecordInfo<'/posts/analog-electronics-review-1', '/posts/analog-electronics-review-1', Record<never, never>, Record<never, never>>,
     '/posts/daily-log 25-08-02': RouteRecordInfo<'/posts/daily-log 25-08-02', '/posts/daily-log 25-08-02', Record<never, never>, Record<never, never>>,
     '/posts/daily-log-25-07-31': RouteRecordInfo<'/posts/daily-log-25-07-31', '/posts/daily-log-25-07-31', Record<never, never>, Record<never, never>>,
     '/posts/daily-log-25-08-01': RouteRecordInfo<'/posts/daily-log-25-08-01', '/posts/daily-log-25-08-01', Record<never, never>, Record<never, never>>,
-    '/posts/digtal-electronics-review-1': RouteRecordInfo<'/posts/digtal-electronics-review-1', '/posts/digtal-electronics-review-1', Record<never, never>, Record<never, never>>,
-    '/posts/discrete-mathematics-review-1': RouteRecordInfo<'/posts/discrete-mathematics-review-1', '/posts/discrete-mathematics-review-1', Record<never, never>, Record<never, never>>,
     '/posts/dream': RouteRecordInfo<'/posts/dream', '/posts/dream', Record<never, never>, Record<never, never>>,
     '/posts/er-radical': RouteRecordInfo<'/posts/er-radical', '/posts/er-radical', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/posts/memories-are-not-born-of-void': RouteRecordInfo<'/posts/memories-are-not-born-of-void', '/posts/memories-are-not-born-of-void', Record<never, never>, Record<never, never>>,
+    '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
     '/posts/self-change-and-future-planning': RouteRecordInfo<'/posts/self-change-and-future-planning', '/posts/self-change-and-future-planning', Record<never, never>, Record<never, never>>,
     '/posts/to-my-21st-year': RouteRecordInfo<'/posts/to-my-21st-year', '/posts/to-my-21st-year', Record<never, never>, Record<never, never>>,
-    '/posts/Untitled': RouteRecordInfo<'/posts/Untitled', '/posts/Untitled', Record<never, never>, Record<never, never>>,
     '/posts/valaxy-usage-tutorial': RouteRecordInfo<'/posts/valaxy-usage-tutorial', '/posts/valaxy-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/vim-usage-tutorial': RouteRecordInfo<'/posts/vim-usage-tutorial', '/posts/vim-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/zotero-usage-tutorial': RouteRecordInfo<'/posts/zotero-usage-tutorial', '/posts/zotero-usage-tutorial', Record<never, never>, Record<never, never>>,
@@ -82,6 +81,14 @@ declare module 'vue-router/auto-routes' {
       routes: '/about/site'
       views: never
     }
+    'pages/albums/index.md': {
+      routes: '/albums/'
+      views: never
+    }
+    'pages/albums/sky.md': {
+      routes: '/albums/sky'
+      views: never
+    }
     'pages/archives/index.md': {
       routes: '/archives/'
       views: never
@@ -106,10 +113,6 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/'
       views: never
     }
-    'pages/posts/analog-electronics-review-1.md': {
-      routes: '/posts/analog-electronics-review-1'
-      views: never
-    }
     'pages/posts/daily-log 25-08-02.md': {
       routes: '/posts/daily-log 25-08-02'
       views: never
@@ -120,14 +123,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/daily-log-25-08-01.md': {
       routes: '/posts/daily-log-25-08-01'
-      views: never
-    }
-    'pages/posts/digtal-electronics-review-1.md': {
-      routes: '/posts/digtal-electronics-review-1'
-      views: never
-    }
-    'pages/posts/discrete-mathematics-review-1.md': {
-      routes: '/posts/discrete-mathematics-review-1'
       views: never
     }
     'pages/posts/dream.md': {
@@ -154,6 +149,10 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/memories-are-not-born-of-void'
       views: never
     }
+    'pages/posts/right-click-menu.md': {
+      routes: '/posts/right-click-menu'
+      views: never
+    }
     'pages/posts/saladict-tips.md': {
       routes: '/posts/saladict-tips'
       views: never
@@ -164,10 +163,6 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/to-my-21st-year.md': {
       routes: '/posts/to-my-21st-year'
-      views: never
-    }
-    'pages/posts/Untitled.md': {
-      routes: '/posts/Untitled'
       views: never
     }
     'pages/posts/valaxy-usage-tutorial.md': {

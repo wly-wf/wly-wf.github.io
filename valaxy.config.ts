@@ -3,6 +3,7 @@ import { defineValaxyConfig } from 'valaxy'
 import { addonComponents } from 'valaxy-addon-components'
 // import { addonWaline } from 'valaxy-addon-waline'
 import { addonTwikoo } from 'valaxy-addon-twikoo'
+import { addonLightGallery } from 'valaxy-addon-lightgallery'
 // import { addonMeting } from 'valaxy-addon-meting'
 
 // add icons what you will need
@@ -53,7 +54,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         text: '标签',  link: '/tags/',  icon: 'i-ri-price-tag-3-line',  
       },
       {
-        text: '友链',link: '/links/',icon: 'i-ri-links-line',
+        text: '我的小伙伴们',link: '/links/',icon: 'i-ri-links-line',
       },
       {
         text: '关于我',link: '/about/',icon: 'i-ri-user-line',
@@ -62,13 +63,19 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
+        name: '相册',
+        url: '/albums/',
+        icon: 'i-ri-gallery-line',
+        color: '#43eeaaff',
+      },
+      {
         name: '我的小伙伴们',
         url: '/links/',
         icon: 'i-ri-links-line',
         color: 'dodgerblue',
       },
       {
-        name: '最喜欢的女孩子',
+        name: '感情故事',
         url: '/girl/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
@@ -107,9 +114,13 @@ export default defineValaxyConfig<UserThemeConfig>({
 
   unocss: { safelist },
 
+  features: {
+      katex: true
+  },
   
   addons: [
     addonComponents(),
+    addonLightGallery(),
     addonTwikoo({
       envId: 'https://wlyblogtwikoo.netlify.app/.netlify/functions/twikoo', // 填写你的环境 ID
     }),

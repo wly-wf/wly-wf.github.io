@@ -14,6 +14,9 @@ importers:
       valaxy-addon-components:
         specifier: ^0.1.0
         version: 0.1.0
+      valaxy-addon-lightgallery:
+        specifier: ^0.0.4
+        version: 0.0.4(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))
       valaxy-addon-meting:
         specifier: ^0.1.4
         version: 0.1.4
@@ -2567,6 +2570,10 @@ packages:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
     engines: {node: '>= 0.8.0'}
 
+  lightgallery@2.7.2:
+    resolution: {integrity: sha512-Ewdcg9UPDqV0HGZeD7wNE4uYejwH2u0fMo5VAr6GHzlPYlhItJvjhLTR0cL0V1HjhMsH39PAom9iv69ewitLWw==}
+    engines: {node: '>=6.0.0'}
+
   linkify-it@5.0.0:
     resolution: {integrity: sha512-5aHCbzQRADcdP+ATqnDuhhJ/MRIqDkZX5pyjFHRRysS8vZ5AbqGEoFIb6pYHPZ+L/OC2Lc+xT8uHVVR5CAK/wQ==}
 
@@ -3475,6 +3482,11 @@ packages:
 
   valaxy-addon-components@0.1.0:
     resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
+
+  valaxy-addon-lightgallery@0.0.4:
+    resolution: {integrity: sha512-+pQJUBCPXff5Isd5ZfNrgkEqh+oKPvzNvgw74vAxmPEeWKvW8786lftVgkoWByFrNsn92iN7q7h5jt3evmQFDg==}
+    peerDependencies:
+      valaxy: latest
 
   valaxy-addon-meting@0.1.4:
     resolution: {integrity: sha512-aTOCswBIg1/MOIC1vZ7ctaZOOEueVN99tEurAxukq15kJtqyps2/XqZw7Bjvik5LNbHtZd+TzmH+vrvhA/HF5w==}
@@ -6602,6 +6614,8 @@ snapshots:
       prelude-ls: 1.2.1
       type-check: 0.4.0
 
+  lightgallery@2.7.2: {}
+
   linkify-it@5.0.0:
     dependencies:
       uc.micro: 2.1.0
@@ -7628,6 +7642,11 @@ snapshots:
   uuid@11.1.0: {}
 
   valaxy-addon-components@0.1.0: {}
+
+  valaxy-addon-lightgallery@0.0.4(valaxy@0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)):
+    dependencies:
+      lightgallery: 2.7.2
+      valaxy: 0.26.6(@babel/parser@7.28.4)(@nuxt/kit@3.17.7)(@types/markdown-it@14.1.2)(@types/node@24.0.13)(@vue/compiler-dom@3.5.22)(@vue/compiler-sfc@3.5.22)(axios@1.12.2)(eslint@9.31.0(jiti@2.6.1))(postcss@8.5.6)(rollup@4.45.0)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
 
   valaxy-addon-meting@0.1.4: {}
 
