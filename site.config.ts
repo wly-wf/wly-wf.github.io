@@ -96,6 +96,10 @@ export default defineSiteConfig({
   // 每页文章数量
   pageSize: 6,
 
+  mediumZoom: {
+    enable: true,
+  },
+
 
   // 赞助
   sponsor: {

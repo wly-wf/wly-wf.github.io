@@ -31,19 +31,12 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/daily-log 25-08-02': RouteRecordInfo<'/posts/daily-log 25-08-02', '/posts/daily-log 25-08-02', Record<never, never>, Record<never, never>>,
-    '/posts/daily-log-25-07-31': RouteRecordInfo<'/posts/daily-log-25-07-31', '/posts/daily-log-25-07-31', Record<never, never>, Record<never, never>>,
-    '/posts/daily-log-25-08-01': RouteRecordInfo<'/posts/daily-log-25-08-01', '/posts/daily-log-25-08-01', Record<never, never>, Record<never, never>>,
-    '/posts/dream': RouteRecordInfo<'/posts/dream', '/posts/dream', Record<never, never>, Record<never, never>>,
-    '/posts/er-radical': RouteRecordInfo<'/posts/er-radical', '/posts/er-radical', Record<never, never>, Record<never, never>>,
+    '/posts/C_C++_VSCode': RouteRecordInfo<'/posts/C_C++_VSCode', '/posts/C_C++_VSCode', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
-    '/posts/memories-are-not-born-of-void': RouteRecordInfo<'/posts/memories-are-not-born-of-void', '/posts/memories-are-not-born-of-void', Record<never, never>, Record<never, never>>,
     '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
-    '/posts/self-change-and-future-planning': RouteRecordInfo<'/posts/self-change-and-future-planning', '/posts/self-change-and-future-planning', Record<never, never>, Record<never, never>>,
-    '/posts/to-my-21st-year': RouteRecordInfo<'/posts/to-my-21st-year', '/posts/to-my-21st-year', Record<never, never>, Record<never, never>>,
     '/posts/valaxy-usage-tutorial': RouteRecordInfo<'/posts/valaxy-usage-tutorial', '/posts/valaxy-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/vim-usage-tutorial': RouteRecordInfo<'/posts/vim-usage-tutorial', '/posts/vim-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/zotero-usage-tutorial': RouteRecordInfo<'/posts/zotero-usage-tutorial', '/posts/zotero-usage-tutorial', Record<never, never>, Record<never, never>>,
@@ -113,24 +106,8 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/'
       views: never
     }
-    'pages/posts/daily-log 25-08-02.md': {
-      routes: '/posts/daily-log 25-08-02'
-      views: never
-    }
-    'pages/posts/daily-log-25-07-31.md': {
-      routes: '/posts/daily-log-25-07-31'
-      views: never
-    }
-    'pages/posts/daily-log-25-08-01.md': {
-      routes: '/posts/daily-log-25-08-01'
-      views: never
-    }
-    'pages/posts/dream.md': {
-      routes: '/posts/dream'
-      views: never
-    }
-    'pages/posts/er-radical.md': {
-      routes: '/posts/er-radical'
+    'pages/posts/C_C++_VSCode.md': {
+      routes: '/posts/C_C++_VSCode'
       views: never
     }
     'pages/posts/gemini-tips.md': {
@@ -145,24 +122,12 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/listen-to-songs-locally-for-free'
       views: never
     }
-    'pages/posts/memories-are-not-born-of-void.md': {
-      routes: '/posts/memories-are-not-born-of-void'
-      views: never
-    }
     'pages/posts/right-click-menu.md': {
       routes: '/posts/right-click-menu'
       views: never
     }
     'pages/posts/saladict-tips.md': {
       routes: '/posts/saladict-tips'
-      views: never
-    }
-    'pages/posts/self-change-and-future-planning.md': {
-      routes: '/posts/self-change-and-future-planning'
-      views: never
-    }
-    'pages/posts/to-my-21st-year.md': {
-      routes: '/posts/to-my-21st-year'
       views: never
     }
     'pages/posts/valaxy-usage-tutorial.md': {
