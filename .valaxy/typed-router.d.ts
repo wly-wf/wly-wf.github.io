@@ -39,6 +39,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
     '/posts/valaxy-usage-tutorial': RouteRecordInfo<'/posts/valaxy-usage-tutorial', '/posts/valaxy-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/vim-usage-tutorial': RouteRecordInfo<'/posts/vim-usage-tutorial', '/posts/vim-usage-tutorial', Record<never, never>, Record<never, never>>,
+    '/posts/Windows-installtion-system': RouteRecordInfo<'/posts/Windows-installtion-system', '/posts/Windows-installtion-system', Record<never, never>, Record<never, never>>,
     '/posts/zotero-usage-tutorial': RouteRecordInfo<'/posts/zotero-usage-tutorial', '/posts/zotero-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
@@ -136,6 +137,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/vim-usage-tutorial.md': {
       routes: '/posts/vim-usage-tutorial'
+      views: never
+    }
+    'pages/posts/Windows-installtion-system.md': {
+      routes: '/posts/Windows-installtion-system'
       views: never
     }
     'pages/posts/zotero-usage-tutorial.md': {
