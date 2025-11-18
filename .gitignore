@@ -31,9 +31,3 @@ public/atom.xml
 # valaxy rss
 public/feed.json
 
-# 忽略 pages 文件夹
-pages/
-# 忽略 styles 文件夹
-styles/
-# 忽略 public 文件夹
-public/
