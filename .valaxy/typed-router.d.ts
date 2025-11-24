@@ -33,6 +33,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/C_C++_VSCode': RouteRecordInfo<'/posts/C_C++_VSCode', '/posts/C_C++_VSCode', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
+    '/posts/github_student_certification': RouteRecordInfo<'/posts/github_student_certification', '/posts/github_student_certification', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
@@ -113,6 +114,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/gemini-tips.md': {
       routes: '/posts/gemini-tips'
+      views: never
+    }
+    'pages/posts/github_student_certification.md': {
+      routes: '/posts/github_student_certification'
       views: never
     }
     'pages/posts/github-home-bea-tutorial.md': {

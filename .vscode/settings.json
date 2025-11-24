@@ -12,5 +12,6 @@
   "files.associations": {
     "*.css": "postcss"
   },
-  "svg.preview.background": "editor"
+  "svg.preview.background": "editor",
+  "markdown.validate.enabled": true
 }

@@ -35,7 +35,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://github.com/wly-wf',
+      link: 'https://github.com',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },

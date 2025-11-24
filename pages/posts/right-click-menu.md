@@ -10,11 +10,11 @@ tags:
 
 最近觉得Win11的右键菜单太难用了，每次都要点显示更多选项才能找到想要的功能，然后就想着改回Win10的那种样子。
 
-<!-- more -->
-
 ## 配置方法
 
 首先按组合键`Win+X`，在弹出的界面中选择**终端管理员(A)**，打开终端，然后输入下面的命令，回车确定，显示“操作成功完成”。
+
+<!-- more -->
 
 ```bash
 reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
