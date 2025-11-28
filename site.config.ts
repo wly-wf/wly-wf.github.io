@@ -15,7 +15,7 @@ export default defineSiteConfig({
     name: 'w乐意',
     email: '2931366539@qq.com',
     link: 'https://wlyff.top/',
-    avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.jpg',
+    avatar: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.webp',
     status: {
       emoji: '😊',
       message: 'wlling to learn, willing to share',
@@ -23,7 +23,7 @@ export default defineSiteConfig({
   },
   mode: 'auto',
   lastUpdated: true,
-  favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.jpg',
+  favicon: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.webp',
 
   // 社交链接
   social: [
