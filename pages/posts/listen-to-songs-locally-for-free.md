@@ -22,7 +22,7 @@ tags:
 
 进入仓库后，点击右侧的Releases，选择自己对应的系统下载即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%A4%92%E7%9B%90%E9%9F%B3%E4%B9%90GitHub%E4%BB%93%E5%BA%93.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%A4%92%E7%9B%90%E9%9F%B3%E4%B9%90GitHub%E4%BB%93%E5%BA%93.webp)
 
 ## 歌曲
 
@@ -34,7 +34,7 @@ tags:
 
 下载的歌曲文件会放在`/Download/Music`，歌词会放在`/Download/Music/Lyric`，可以去手机文件管理器里面找，或者可以安装一个**MT管理器**，这个管理文件比较方便，后面介绍。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A4%A9%E5%A4%A9%E6%82%A6%E5%90%AC.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%A4%A9%E5%A4%A9%E6%82%A6%E5%90%AC.webp)
 
 #### 酷我音乐破解版
 
@@ -46,7 +46,7 @@ tags:
 
 然后这里再说一下下载歌曲的时候需要注意的一个点，最上面的两个音质不要下载，它应该是酷我音乐自己搞的一种编码格式，不像常规的mp3、flac格式，点开就可以听，我们选择无损音质下载就可以。下载目录为`Download/KuwoMusic/music`。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%A0%B4%E8%A7%A3%E7%89%88.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%A0%B4%E8%A7%A3%E7%89%88.webp)
 
 ## 歌词
 
@@ -56,7 +56,7 @@ tags:
 
 这个软件很小，但是功能强大。为了给我们本地的歌单匹配歌词，我们可以打开音乐标签，进入歌单文件夹，点击右下角的铅笔，点击自动匹配标签，便可以为我们的歌单匹配歌词，英文歌曲也可以自动匹配中文翻译。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%9F%B3%E4%B9%90%E6%A0%87%E7%AD%BE.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%9F%B3%E4%B9%90%E6%A0%87%E7%AD%BE.webp)
 
 如果不想这样操作，其实还有另外的方法，下面介绍。
 
@@ -66,17 +66,17 @@ tags:
 
 首先我们先在手机里新建一个用来存放歌曲文件的文件夹，例如说叫**歌单**，我们以后下载的歌就全放在这个文件夹里面，方便管理。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%AD%8C%E5%8D%95%E6%96%87%E4%BB%B6%E5%A4%B9.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%AD%8C%E5%8D%95%E6%96%87%E4%BB%B6%E5%A4%B9.webp)
 
 然后打开**椒盐音乐**软件，在左边侧边栏中选择扫描音乐，然后我们可以自定义一个扫描文件夹，选择为刚刚创建的**歌单**文件夹，然后点击上方的开始扫描即可，扫描完成后就可以看到所有的音乐了。如果你前面已经提前匹配好了歌词、专辑等信息，那么现在就可以开始听歌了，页面很美观。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%89%AB%E6%8F%8F%E9%9F%B3%E4%B9%90.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E6%89%AB%E6%8F%8F%E9%9F%B3%E4%B9%90.webp)
 
 如果你没有匹配歌词，那还可以利用下面的方法进行匹配。
 
 随便点开一首歌开始播放，点击播放页面右下角的三个点，并选择**使用音乐标签应用编辑**，随后在下面的页面中点击**放大镜**按钮，搜索歌词专辑等信息，选择对应的版本匹配即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%8C%B9%E9%85%8D%E6%AD%8C%E8%AF%8D.jpg)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%8C%B9%E9%85%8D%E6%AD%8C%E8%AF%8D.webp)
 
 如果你已经成功完成了以上步骤，那么你就可以拥有一个属于你自己的本地音乐播放器了，接下来你可以自行研究上述软件更多的功能，例如设置播放器的外观、歌词样式等。
 

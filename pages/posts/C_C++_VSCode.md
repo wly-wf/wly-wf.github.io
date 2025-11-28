@@ -23,7 +23,7 @@ tags:
 首先进入VSCode的下载页面：https://code.visualstudio.com/Download
 根据不同的系统选择对应的版本进行下载安装，需要注意的是安装过程的这个界面需要把这几个全勾上，其中其他里面的前两个的作用是：你可以在一个文件夹中单击右键，选择用VSCode打开这个文件夹。然后就是要把最后一个勾上。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/VSCode%E5%AE%89%E8%A3%85.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/VSCode%E5%AE%89%E8%A3%85.webp)
 
 安装完成之后，我们打开软件会发现界面都是英文的，我们可以安装一个中文插件进行汉化。按`Ctrl+Shift+X`打开拓展页面，就在左边从上往下数第四个，搜索**Chinese**，安装简体中文插件，安装完成后，右下角提示我们要重启软件使插件生效，重启后软件就变成中文的了。
 

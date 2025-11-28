@@ -9,6 +9,7 @@ import { addonLightGallery } from 'valaxy-addon-lightgallery'
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
+  'i-ri-gamepad-line',
 ]
 
 /**
@@ -79,6 +80,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/girl/',
         icon: 'i-ri-women-line',
         color: 'hotpink',
+      },
+      {
+        name: '有趣的玩意儿',
+        url: '/fun/',
+        icon: 'i-ri-emotion-happy-line',
+        color: '#ffb400ff',
       },
     ],
 

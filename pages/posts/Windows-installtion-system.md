@@ -21,7 +21,7 @@ tags:
 
 选择你想要安装的系统，该网址为微软官方下载地址。以Windows11为例，我们进入Win11的下载界面，点击“创建Windows11安装媒体”下方的立即下载按钮，下载U盘制作工具。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Microsoft_Win11.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Microsoft_Win11.webp)
 
 下载完成后得到一个名为“MediaCreationTool.exe”的可执行文件，双击打开（打不开请以管理员身份运行），点击接受<u>**适用的声明和许可条款**</u>，在<u>**选择语言和版本**</u>界面点击下一步，选择要使用的介质为<u>**U盘**</u>，点击下一步选择对应的U盘，点击下一步耐心等待下载完成即可。
 
@@ -29,7 +29,7 @@ tags:
 
 下载完成后，U盘里应该会有以下文件：
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_files.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_files.webp)
 
 这时候启动盘就制作好了。
 
@@ -39,7 +39,7 @@ tags:
 
 将U盘插入到将要重装系统的电脑中，开机，根据电脑型号不同快速点击对应的快捷键，直到出现启动项选择界面。你将会看见一个为UEFI-xxx的盘符，其中xxx是你U盘的型号，我们用鼠标点击该盘符即可。然后它会自动进入Win11的安装界面。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Udrive_boot_key.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Udrive_boot_key.webp)
 
 #### BIOS法
 
@@ -65,7 +65,7 @@ tags:
 
 选择最新版本的微PE工具箱进行下载，目前最新版本为V2.3，选择64位下载即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/wepe.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/wepe.webp)
 
 下载完成后，双击可执行程序，在第一个页面点击右下角的其他安装方式中的<u>**安装PE到U盘**</u>选项，第一条安装方法默认，第二条待写入U盘，确认是自己的U盘即可，格式化这栏保持默认的exFAT、USB-HDD，U盘卷标随意命名，其他都保持默认即可，打勾的地方也不用打，点击<u>**立即安装进U盘**</u>，会提示即将开始制作可启动U盘，耐心等待即可。
 
@@ -79,7 +79,7 @@ tags:
 
 我们在下图中选择要下载的Win11版本，这里我选择了Win11专业中文版，并将产品语言选择为简体中文，点击确认后，再点击立即下载，此时就会开始下载Win11的镜像文件。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_iso.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_iso.webp)
 
 你也可以使用前面下载过的软件进行镜像文件的下载，双击打开“MediaCreationTool.exe”的可执行文件（打不开请以管理员身份运行），点击接受<u>**适用的声明和许可条款**</u>，在<u>**选择语言和版本**</u>界面点击下一步，选择要使用的介质为<u>**ISO文件**</u>，选择下载的位置，建议下载至桌面，点击下一步耐心等待下载完成即可。
 

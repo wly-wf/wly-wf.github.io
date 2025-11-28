@@ -1,0 +1,10 @@
+[
+  {
+    "name": "WebP-Converter",
+    "description": "图片格式转换，将其他格式图片转换为WebP格式，支持批量转换。",
+    "link": "https://storied-kashata-09cf99.netlify.app",
+    "icon": "i-ri-gamepad-line",
+    "color": "linear-gradient(120deg, #a18cd1 0%, #fbc2eb 100%)",
+    "github": "https://github.com/wly-wf/WebP-Converter"
+  }
+]

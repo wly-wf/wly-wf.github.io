@@ -24,7 +24,7 @@ tags:
 
 3、**完善Payment information**：进入GitHub首页 -> 点击右上角头像的`Settings` -> `Billing and licensing` -> `Payment information`，填写好对应的信息，如下图所示。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/GitHub_payment.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/GitHub_payment.webp)
 
 4、**个人信息**：先在手机备忘录准备好以下信息
 
@@ -57,4 +57,4 @@ Student xxx（姓名和前面保持一致）,is allowed to study via distance le
 
 到这里就基本上完成了，然后等个两三分钟的样子，刷新，就可以看到显示`Approved`，那就成功了，然后等三天人工验证，就可以通过学生认证，通过的话会给你的邮箱发一封邮件，邮箱就是申请的时候填的学生邮箱，然后就可以白嫖Copilot了。可以看到我第一次申请失败了，我是用手持学生证拍照的方式，没通过，没有识别出我的学校名字，所以还是建议直接在备忘录中填好。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/GitHub_edu.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/GitHub_edu.webp)

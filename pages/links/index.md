@@ -5,8 +5,8 @@ icon: i-ri-links-line
 description: 我的小伙伴们
 random: true
 nav: false
-toc: false
-aside: false
+toc: true
+aside: true
 links: /links.json
 ---
 

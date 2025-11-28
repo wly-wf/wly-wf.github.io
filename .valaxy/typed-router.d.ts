@@ -27,12 +27,14 @@ declare module 'vue-router/auto-routes' {
     '/albums/sky': RouteRecordInfo<'/albums/sky', '/albums/sky', Record<never, never>, Record<never, never>>,
     '/archives/': RouteRecordInfo<'/archives/', '/archives', Record<never, never>, Record<never, never>>,
     '/categories/': RouteRecordInfo<'/categories/', '/categories', Record<never, never>, Record<never, never>>,
+    '/fun/': RouteRecordInfo<'/fun/', '/fun', Record<never, never>, Record<never, never>>,
     '/girl/': RouteRecordInfo<'/girl/', '/girl', Record<never, never>, Record<never, never>>,
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/C_C++_VSCode': RouteRecordInfo<'/posts/C_C++_VSCode', '/posts/C_C++_VSCode', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
+    '/posts/git_usage_tutorial': RouteRecordInfo<'/posts/git_usage_tutorial', '/posts/git_usage_tutorial', Record<never, never>, Record<never, never>>,
     '/posts/github_student_certification': RouteRecordInfo<'/posts/github_student_certification', '/posts/github_student_certification', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
@@ -92,6 +94,10 @@ declare module 'vue-router/auto-routes' {
       routes: '/categories/'
       views: never
     }
+    'pages/fun/index.md': {
+      routes: '/fun/'
+      views: never
+    }
     'pages/girl/index.md': {
       routes: '/girl/'
       views: never
@@ -114,6 +120,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/gemini-tips.md': {
       routes: '/posts/gemini-tips'
+      views: never
+    }
+    'pages/posts/git_usage_tutorial.md': {
+      routes: '/posts/git_usage_tutorial'
       views: never
     }
     'pages/posts/github_student_certification.md': {

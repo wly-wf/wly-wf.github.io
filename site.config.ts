@@ -109,19 +109,19 @@ export default defineSiteConfig({
     methods: [
       {
         name: '微信支付',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/wechatpay.png',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/WeChatpay.webp',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
       {
         name: '支付宝',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/alipay.png',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/alipay.webp',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: 'QQ 支付',
-        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/qqpay.png',
+        url: 'https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/qqpay.webp',
         color: '#12B7F5',
         icon: 'i-ri-qq-line',
       },

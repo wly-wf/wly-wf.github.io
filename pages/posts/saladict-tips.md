@@ -26,7 +26,7 @@ tags:
 
 安装完成后，需要进行基本的设置，进入浏览器的插件页面，点击沙拉查词右边三个点，选择扩展选项进入**沙拉查词**的配置界面
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%85%8D%E7%BD%AE%E9%A1%B5%E9%9D%A2.webp)
 
 可以按照下面配置：
 
@@ -301,17 +301,17 @@ span.x-num.dx-num {
 
 不关闭迷你菜单的效果：
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E4%B8%8D%E5%85%B3%E9%97%AD%E8%BF%B7%E4%BD%A0%E8%8F%9C%E5%8D%95.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E4%B8%8D%E5%85%B3%E9%97%AD%E8%BF%B7%E4%BD%A0%E8%8F%9C%E5%8D%95.webp)
 
 > 迷你菜单指的是黑框内的内容
 
 此时迷你菜单会遮挡住沙拉查词，下面是关闭迷你菜单后的效果
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%85%B3%E9%97%AD%E8%BF%B7%E4%BD%A0%E8%8F%9C%E5%8D%95.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%85%B3%E9%97%AD%E8%BF%B7%E4%BD%A0%E8%8F%9C%E5%8D%95.webp)
 
 当你选中文本时，鼠标右上角会出现一个沙拉查词的图标，点击后可以查看翻译的结果，如下所示。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E7%A4%BA%E6%84%8F%E5%9B%BE.webp)
 
 你可以选择不同的翻译模式，同时也可以将翻译结果钉在界面上，就可以愉快的查单词啦！
 
@@ -325,7 +325,7 @@ span.x-num.dx-num {
 
 首先进入浏览器的插件设置界面：**点击管理扩展->键盘快捷方式**
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E8%AE%BE%E7%BD%AE.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E8%AE%BE%E7%BD%AE.webp)
 
 找到沙拉查词的快捷键设置部分，并为**在独立窗口中搜索剪贴板内容**设置快捷键，我设置的是Alt+L。同时要将应用范围选择为**全局**
 
@@ -335,7 +335,7 @@ span.x-num.dx-num {
 
 > **地址：https://getquicker.net**
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/quicker.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/quicker.webp)
 
 点击立即下载，选择对应操作系统的版本进行安装即可。
 
@@ -343,11 +343,11 @@ span.x-num.dx-num {
 
 在Quicker主页的搜索框搜索[**文本/截图动作**](https://getquicker.net/sharedaction?code=b0d1a134-8284-4a44-d1be-08d746da5869)，点击复制到剪贴板，然后点击鼠标中键，呼出Quicker面板，并在空白处单击右键，选择粘贴分享的动作，点击安装即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%AE%89%E8%A3%85%E5%8A%A8%E4%BD%9C.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%AE%89%E8%A3%85%E5%8A%A8%E4%BD%9C.webp)
 
 如果你不想单击鼠标中键呼出Quicker，也可以打开Quicker的设置界面，点击弹出面板，并选择你自己喜欢的呼出方式。例如我选择的就是长按鼠标右键呼出。你也可以在右边的按键测试区测试快捷键。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%91%BC%E5%87%BA%E6%96%B9%E5%BC%8F.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%91%BC%E5%87%BA%E6%96%B9%E5%BC%8F.webp)
 
 ### 使用教程
 
@@ -355,7 +355,7 @@ span.x-num.dx-num {
 
 长按右键呼出面板，在文本/截图翻译动作上单击右键，可以看到一些功能，如下所示。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9F%BA%E6%9C%AC%E5%8A%9F%E8%83%BD.webp)
 
 #### 文本截图
 
