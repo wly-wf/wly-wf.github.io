@@ -1,5 +1,5 @@
 ---
-title: VSCode利用WSL配置C/C++环境
+title: VSCode利用CMake配置C/C++环境
 date: 2025-10-25
 update: 2025-10-25
 categories: 教程
@@ -55,7 +55,7 @@ tags:
 
 **[MSYS2](https://www.msys2.org/)**：它是一个 基于Cygwin和MinGW-w64的类Unix环境和软件发行版。其内部集成了MinGW-w64工具链（通常有多个版本，例如 mingw-w64-x86_64-gcc），因此也可以在 MSYS2 环境中用MinGW-w64编译原生的Windows程序。但它同时也可以编译MSYS2自己的类Unix程序。
 
-这里我们选择安装MSYS2。进入[下载地址](https://github.com/msys2/msys2-installer/releases)，选择下载最新版本。
+这里我们选择安装MSYS2。进入[下载地址](https://github.com/msys2/msys2-installer/releases)，选择下载最新版本。如果是Windows系统的话，请下载带有类似信息的版本：**msys2-x86_64-20251213.exe**
 
 安装完成后，在开始菜单打开MSYS2 UCRT64命令行，请确保你能看到**UCRT64**字样，代表你在正确的环境中。然后输入以下命令来更新Pacman包管理器：
 
@@ -63,18 +63,19 @@ tags:
 pacman -Syu
 ```
 
-然后输入以下命令安装GCC（包含G++）和GDB：
+然后输入以下命令安装GCC、G++、GDB以及mingw32-make：
 
 ```bash
-pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-gdb
+pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-gdb mingw-w64-ucrt-x86_64-make
 ```
 
-安装完成后，你可以通过运行以下命令来验证 gcc、g++ 和 gdb 是否已正确安装并且可以在 UCRT64 终端中使用：
+安装完成后，你可以通过运行以下命令来验证 gcc、g++、gdb 以及 mingw32-make 是否已正确安装并且可以在 UCRT64 终端中使用：
 
 ```bash
 gcc --version
 g++ --version
 gdb --version
+mingw32-make --version
 ```
 
 你应该会看到每个工具的版本信息：
@@ -95,25 +96,24 @@ Copyright (C) 2024 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 This is free software: you are free to change and redistribute it.
 There is NO WARRANTY, to the extent permitted by law.
+
+GNU Make 4.4.1
+Built for x86_64-w64-mingw32
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
 ```
 
 最后将`D:\msys64\ucrt64\bin\`这个路径添加到系统环境变量中，这样后面VSCode就可以找到了。
 
-## 利用.json文件编译调试单文件
-
-### settings.json文件
-
-### launch.json文件
-
-### tasks.json文件
-
-## 利用CMake编译调试多文件
+## 利用CMake编译调试C、C++文件
 
 C/C++ 项目通常包含大量的源文件（.c, .cpp）、头文件（.h, .hpp）以及可能需要链接的第三方库。手动编写编译命令（如 g++ main.cpp foo.cpp -o my_app -I/path/to/headers -L/path/to/libs -lmylib）会非常繁琐且容易出错。CMake 通过编写简洁的 CMakeLists.txt 文件，自动生成适合你当前开发环境的构建脚本，从而自动化了源代码的编译、链接等步骤。
 
 ### 安装CMake
 
-首先需要去[CMake官网](https://cmake.org/)下载安装CMake，可以直接下载压缩包，你应该可以看到一个名为**cmake-4.2.0-rc1-windows-x86_64.zip**的压缩包，下载之后把它解压缩放在一个路径下面就可以了。打开文件夹你会发现有一个bin的目录，假设为`D:\CMake\bin`，将这个路径添加到系统环境变量中。然后打开命令行，输入：
+首先需要去[CMake官网](https://cmake.org/)下载安装CMake，可以直接下载压缩包，你应该可以看到一个名为**cmake-4.2.0-rc1-windows-x86_64.zip**的压缩包，下载之后把它解压缩放在一个路径下面就可以了。打开文件夹你会发现有一个bin的目录，假设为`D:\CMake\bin\`，将这个路径添加到系统环境变量中。然后打开命令行，输入：
 
 ```bash
 cmake --version
@@ -129,20 +129,170 @@ cmake --version
 
 首先安装插件**C/C++**和**C/C++ Extension Pack**，一般来说，安装完**C/C++ Extension Pack**这个插件，会顺带自动安装一些别的插件，比如说**C/C++ Themes**、**CMake Tools**，我们还需要安装**CMake**这个插件，然后就可以了。
 
+如果你的VSCode搜索不到编译器，则可以进行以下设置：
+
+在VSCode中按`Ctrl + ,`打开设置；搜索`cmake.configureSettings`；点击**在 settings.json 中编辑" (Edit in settings.json)**；将以下内容添加到大括号内（注意修改为你实际的路径）
+
+```bash
+{
+    "cmake.configureSettings": {
+        "CMAKE_CXX_COMPILER": "D:/msys64/ucrt64/bin/g++.exe",
+        "CMAKE_C_COMPILER": "D:/msys64/ucrt64/bin/gcc.exe"
+    },
+    "cmake.generator": "MinGW Makefiles"
+}
+```
+
+最后按`Ctrl + Shift + P`，输入`CMake: Delete Cache and Reconfigure`，重新配置。
+
+### 编译调试单文件
+
+新建一个空文件夹`test`并用VSCode打开，在根目录新建测试文件`main.cpp`以及`CMakeLists.txt`，内容如下：
+
+```cpp [main.cpp]
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, CMake in VS Code!" << std::endl;
+    return 0;
+}
+```
+
+```txt [CMakeLists.txt]
+# 1. 指定 CMake 的最低版本要求
+cmake_minimum_required(VERSION 3.10)
+
+# 2. 定义项目名称
+project(HelloWorld)
+
+# 3. 生成可执行文件：第一个参数是生成的文件名，第二个是源文件
+add_executable(hello_cmake main.cpp)
+```
+
+保存之后，在VSCode底部可以看到一个齿轮（生成）按钮，我们可以点击这个按钮自动构建编译，它会在根目录自动生成一个`build`文件夹，最后会在里面生成一个可执行文件`hello_cmake.exe`，我们执行这个文件就可以了。
+
+我们也可以手动输入命令编译：
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .
+```
+
+如果执行`cmake ..`时报错如下：
+
+```bash
+-- Building for: NMake Makefiles
+CMake Error at CMakeLists.txt:5 (project):
+  Running
+   'nmake' '-?'
+  failed with:
+   no such file or directory
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+```
+
+解决方法：在系统或用户环境变量处新建变量，变量名：CMAKE_GENERATOR；变量值：MinGW Makefiles。然后重启VSCode，就可以用上述命令进行构建了。
+
+调试该文件可以按F5，然后选择g++.exe的路径，就可以了。
+
+### 编译调试多文件
+
 假设你的项目如下：
 
-```text
-project/
+```txt
+test/
 ├── .vscode
-    └── launch.json     // 调试用，建议自己新建并复制下面的代码
+│   └── launch.json     // 调试用，建议自己新建并复制下面的代码
 ├── inc/                // 头文件
-    ├── hello.h
-    └── world.h
+│   └── adder.h
 ├── src/                // 源文件
-    ├── hello.c
-    ├── world.c
-    └── main.c
+│   ├── adder.cpp
+│   └── main.cpp
 └── CMakeLists.txt      // 构建文件
 ```
 
+各文件内容如下：
+
+```cpp [inc/adder.h]
+#pragma once  // 防止头文件重复包含
+
+int add(int a, int b);
+```
+
+```cpp [src/adder.cpp]
+#include "adder.h"
+
+int add(int a, int b) {
+    return a + b;
+}
+```
+
+```cpp [src/main.cpp]
+#include <iostream>
+#include "adder.h"
+
+int main() {
+    int x = 5, y = 10;
+    int result = add(x, y);
+    std::cout << "The sum is: " << result << std::endl;
+    return 0;
+}
+```
+
+```txt [CMakeLists.txt]
+cmake_minimum_required(VERSION 3.10)
+project(MultiFileProject)
+
+# 1. 告诉 CMake 头文件在哪里（这样 main.cpp 才能找到 adder.h）
+include_directories(inc)
+
+# 2. 收集所有源文件到一个变量中
+# 虽然可以直接写在 add_executable 里，但文件多了建议用变量
+set(SOURCES 
+    src/main.cpp 
+    src/adder.cpp
+)
+
+# 3. 生成可执行文件
+add_executable(my_app ${SOURCES})
+```
+
+想要调试的话，直接在根目录新建一个`.vscode`文件夹，然后在文件夹内新建一个文件`launch.json`文件，并输入以下内容：
+
+```bash [launch.json]
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++.exe - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
+```
+
+保存后重新启动VSCode，就可以按F5启动调试了。
+
 ## 结语
+
+在Windows系统中利用VSCode编译调试C/C++代码确实很麻烦，尤其是对于小白来说，网上很多教程还是教你用`seetings.json`、`task.json`以及`launch.json`文件来配置，都是胡乱复制一通，也不知道复制过来的代码有什么问题，很多时候复制过来也不能用，找遍方法也不行，最后环境还被搞得乱七八糟，非常劝退。我这个教程直接利用CMake来配置环境，比较方便，其实最好的方法是在Linux中编写C/C++代码比较好，可以在Windows中安装一个WSL2，就可以在Windows系统中直接启动Linux环境，后续可能会补充这一部分。

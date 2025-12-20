@@ -16,6 +16,17 @@ tags:
 
 > **视频教程：https://www.bilibili.com/video/BV1ki4y1x7EN**
 
+<div class="video-container">
+    <iframe
+        src="//player.bilibili.com/player.html?isOutside=true&aid=540562830&bvid=BV1ki4y1x7EN&cid=185784827&p=1&high_quality=1&danmaku=0&autoplay=0"
+        allowfullscreen="allowfullscreen"
+        scrolling="no"
+        frameborder="0"
+        sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts">
+    </iframe>
+</div>
+
+
 ## 安装
 
 这个其实也是浏览器的一个插件，适配Edge、Chrome、Firefox等常用浏览器。
