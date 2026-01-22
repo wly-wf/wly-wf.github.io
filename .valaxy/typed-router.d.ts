@@ -37,6 +37,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/git_usage_tutorial': RouteRecordInfo<'/posts/git_usage_tutorial', '/posts/git_usage_tutorial', Record<never, never>, Record<never, never>>,
     '/posts/github_student_certification': RouteRecordInfo<'/posts/github_student_certification', '/posts/github_student_certification', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
+    '/posts/IDM-activate-script': RouteRecordInfo<'/posts/IDM-activate-script', '/posts/IDM-activate-script', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
@@ -132,6 +133,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/github-home-bea-tutorial.md': {
       routes: '/posts/github-home-bea-tutorial'
+      views: never
+    }
+    'pages/posts/IDM-activate-script.md': {
+      routes: '/posts/IDM-activate-script'
       views: never
     }
     'pages/posts/listen-to-songs-locally-for-free.md': {
