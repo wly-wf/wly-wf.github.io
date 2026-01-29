@@ -19,7 +19,7 @@ links: /links.json
 ```json
 {
     "url": "https://wlyff.top",
-    "avatar": "https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/%E5%9B%BE%E7%89%87.jpg",
+    "avatar": "https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.webp",
     "name": "w乐意",
     "blog": "wlyのblog",
     "desc": "欢迎来到我的小窝",
