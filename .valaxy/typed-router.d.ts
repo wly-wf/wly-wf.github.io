@@ -41,6 +41,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
     '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
+    '/posts/set-proxy-terminal': RouteRecordInfo<'/posts/set-proxy-terminal', '/posts/set-proxy-terminal', Record<never, never>, Record<never, never>>,
     '/posts/valaxy-usage-tutorial': RouteRecordInfo<'/posts/valaxy-usage-tutorial', '/posts/valaxy-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/vim-usage-tutorial': RouteRecordInfo<'/posts/vim-usage-tutorial', '/posts/vim-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/Windows-installtion-system': RouteRecordInfo<'/posts/Windows-installtion-system', '/posts/Windows-installtion-system', Record<never, never>, Record<never, never>>,
@@ -149,6 +150,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/saladict-tips.md': {
       routes: '/posts/saladict-tips'
+      views: never
+    }
+    'pages/posts/set-proxy-terminal.md': {
+      routes: '/posts/set-proxy-terminal'
       views: never
     }
     'pages/posts/valaxy-usage-tutorial.md': {
