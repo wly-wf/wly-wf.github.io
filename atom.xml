@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wlyff.top/</id>
+    <title>wlyのblog</title>
+    <updated>2026-01-29T06:44:16.816Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>w乐意</name>
+        <email>2931366539@qq.com</email>
+        <uri>https://wlyff.top/</uri>
+    </author>
+    <link rel="alternate" href="https://wlyff.top/"/>
+    <link rel="self" href="https://wlyff.top/atom.xml"/>
+    <subtitle>欢迎来到我的小窝</subtitle>
+    <logo>https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/avatar.webp</logo>
+    <icon>https://wlyff.top/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © w乐意</rights>
+    <entry>
+        <title type="html"><![CDATA[Valaxy博客配置教程]]></title>
+        <id>https://wlyff.top/posts/valaxy-usage-tutorial</id>
+        <link href="https://wlyff.top/posts/valaxy-usage-tutorial"/>
+        <updated>2025-10-19T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>前言</h2>
+<p>无意间看到</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/valaxy-usage-tutorial" target="_blank">https://wlyff.top/posts/valaxy-usage-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.776Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vim使用教程]]></title>
+        <id>https://wlyff.top/posts/vim-usage-tutorial</id>
+        <link href="https://wlyff.top/posts/vim-usage-tutorial"/>
+        <updated>2025-10-16T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Vim 是一个高度可配置的文本编辑器，旨在实现高效的文本编辑。它是大多数 UNIX 系统中分发的 vi 编辑器的改进版本。</p>
+<p>Vim 通常被称为“程序员的编辑器”，对于编程非常有用，以至于许多人认为它是一个完整的 IDE。但这不仅仅适用于程序员。Vim 非常适合各种文本编辑，从撰写电子邮件到编辑配置文件。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/vim-usage-tutorial" target="_blank">https://wlyff.top/posts/vim-usage-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.776Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zotero使用教程]]></title>
+        <id>https://wlyff.top/posts/zotero-usage-tutorial</id>
+        <link href="https://wlyff.top/posts/zotero-usage-tutorial"/>
+        <updated>2025-10-15T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>最近了解到Zotero这一个文献管理软件，记录一下它的使用教程</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/zotero-usage-tutorial" target="_blank">https://wlyff.top/posts/zotero-usage-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.776Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode利用CMake配置C/C++环境]]></title>
+        <id>https://wlyff.top/posts/C_C++_VSCode</id>
+        <link href="https://wlyff.top/posts/C_C++_VSCode"/>
+        <updated>2025-10-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>很多人在刚开始学习编程语言的时候，比如C、C++、Python等，一般都是跟着网上的教程，用的是IDE（集成开发环境），比如说<a href="https://visualstudio.microsoft.com/zh-hans/">Visual Studio</a>、<a href="http://www.bloodshed.net/">Dev C++</a>、<a href="https://www.jetbrains.com/pycharm/">PyCharm</a>等。这些IDE的好处就是不用我们自己配置麻烦的编译链接环境，它们直接帮你搞好了，写完代码按编译运行按钮就可以看到结果，很方便。但是这样也有坏处，我们不能深入底层了解程序的编译链接过程，往往这些原理才是更重要的。</p>
+<p>在这里推荐一下<a href="https://code.visualstudio.com/">Visual Studio Code</a>这款开源的编辑器，虽说它只是一个编辑器，但是它拥有庞大的拓展插件，你可以通过各种插件来实现不同的功能，比如说你可以用它写C/C++，写Python，写Java等等，只要合理配置，它的功能非常强大，这也是这款软件受到大家的喜爱的原因。但是恰恰是它的环境配置对于小白来说有点困难，所以也劝退了很多刚入门的新手。</p>
+<p>最近研究了一下怎么在VSCode上配置C/C++的编程环境，确实有点麻烦，想把它记录下来。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/C_C++_VSCode" target="_blank">https://wlyff.top/posts/C_C++_VSCode</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用脚本永久激活IDM]]></title>
+        <id>https://wlyff.top/posts/IDM-activate-script</id>
+        <link href="https://wlyff.top/posts/IDM-activate-script"/>
+        <updated>2026-01-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>你是否还在为IDM的30天试用期结束而烦恼？是否厌倦了每次重装都要重新激活？今天，我将手把手教你使用由开发者 Astro-Saurav 打造的开源脚本，一键实现IDM的永久激活或试用期冻结，让你的下载体验再无后顾之忧。</p>
+<p>本教程基于官方GitHub项目，所有操作均在本地完成，安全透明，无任何第三方风险。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/IDM-activate-script" target="_blank">https://wlyff.top/posts/IDM-activate-script</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows系统安装]]></title>
+        <id>https://wlyff.top/posts/Windows-installtion-system</id>
+        <link href="https://wlyff.top/posts/Windows-installtion-system"/>
+        <updated>2025-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>浅浅记录一下重装Windows系统的过程。</p>
+<h2>官方系统直装法（不建议）</h2>
+<h3>将系统写入U盘</h3>
+<p>若为台式机，将U盘插到主板的USB接口上，笔记本电脑随意。U盘大小至少为8GB，建议为16GB以上。</p>
+<p>打开浏览器，在地址栏输入网址：</p>
+<blockquote>
+<p><a href="https://www.microsoft.com/zh-cn/software-download">https://www.microsoft.com/zh-cn/software-download</a></p>
+</blockquote>
+<p>选择你想要安装的系统，该网址为微软官方下载地址。以Windows11为例，我们进入Win11的下载界面，点击“创建Windows11安装媒体”下方的立即下载按钮，下载U盘制作工具。</p>
+<p><img src="https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Microsoft_Win11.webp" alt=""></p>
+<p>下载完成后得到一个名为“MediaCreationTool.exe”的可执行文件，双击打开（打不开请以管理员身份运行），点击接受<u><strong>适用的声明和许可条款</strong></u>，在<u><strong>选择语言和版本</strong></u>界面点击下一步，选择要使用的介质为<u><strong>U盘</strong></u>，点击下一步选择对应的U盘，点击下一步耐心等待下载完成即可。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/Windows-installtion-system" target="_blank">https://wlyff.top/posts/Windows-installtion-system</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gemini使用技巧]]></title>
+        <id>https://wlyff.top/posts/gemini-tips</id>
+        <link href="https://wlyff.top/posts/gemini-tips"/>
+        <updated>2025-08-06T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>Google的Gemini大模型应该算得上是比较好用的了，比较出名就是<strong>Gemini 2.5 Flash</strong>和<strong>Gemini 2.5 Pro</strong>。最主要的是它可以免费使用（每天有一定的免费额度，但对于普通人来说已经足够用了）。在2025年6月30日前进行学生认证，就可以免费使用15个月的超强版<strong>Gemini 2.5 Pro</strong>模型，但是我没有薅到羊毛。现在分享一些Gemini的使用技巧。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/gemini-tips" target="_blank">https://wlyff.top/posts/gemini-tips</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git的简单使用]]></title>
+        <id>https://wlyff.top/posts/git_usage_tutorial</id>
+        <link href="https://wlyff.top/posts/git_usage_tutorial"/>
+        <updated>2025-11-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Git的基本概念</h2>
+<h3>工作区域</h3>
+<p>1、<strong>Git仓库</strong>：Git 仓库是 Git 用于存储项目所有版本历史记录和元数据的地方。 它是一个隐藏的 .git 目录，通常位于项目根目录的内部。这是 Git 版本控制的核心，包含了所有的提交对象、分支、标签、配置信息等。</p>
+<p>2、<strong>工作目录</strong>：工作目录是文件系统上看到的实际文件和目录的集合。 它是用户打开、编辑和处理项目文件的地方。当用户 <code>git clone</code> 一个仓库时，工作目录就是克隆下来的那一套文件。</p>
+<p>3、<strong>暂存区</strong>：暂存区是一个中间区域，它存储了下一次提交(commit)所打算包含的所有更改的快照。 它不是一个真正的目录，而是一个文件 (.git/index)，其中保存了文件在下一次提交时会是什么样子的信息（具体来说是文件内容、权限、时间戳等数据的哈希值）。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/git_usage_tutorial" target="_blank">https://wlyff.top/posts/git_usage_tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub主页美化教程]]></title>
+        <id>https://wlyff.top/posts/github-home-bea-tutorial</id>
+        <link href="https://wlyff.top/posts/github-home-bea-tutorial"/>
+        <updated>2025-10-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<br/><p>访问 <a href="https://wlyff.top/posts/github-home-bea-tutorial" target="_blank">https://wlyff.top/posts/github-home-bea-tutorial</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub学生认证（白嫖GitHub Copilot）]]></title>
+        <id>https://wlyff.top/posts/github_student_certification</id>
+        <link href="https://wlyff.top/posts/github_student_certification"/>
+        <updated>2025-11-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>为了能在VSCode上美美用上Copilot，同时解决认证过程中可能遇到的问题，遂写下这篇文章。</p>
+<p>参考了这篇博客的方法：<a href="https://zhaojianjun2004.github.io/2025/09/16/github_student/">https://zhaojianjun2004.github.io/2025/09/16/github_student/</a></p>
+<h2>前期准备</h2>
+<p>1、<strong><a href="https://gitee.com/XingYuan55/FastGithub">FastGithub</a></strong>，这个用来加速GitHub，不能使用代理软件，至少最后一步拍照的时候不能使用，为了方便，建议下载一个这个，这个不会改变ip。根据自己的系统下载对应的版本即可。</p>
+<p>参考的博客建议下载一个iriun webcam，电脑可以调用手机摄像头，为了后面拍照的时候更加方便，我实测发现用电脑的前置摄像头也可以。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/github_student_certification" target="_blank">https://wlyff.top/posts/github_student_certification</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[免费搭建本地音乐播放器]]></title>
+        <id>https://wlyff.top/posts/listen-to-songs-locally-for-free</id>
+        <link href="https://wlyff.top/posts/listen-to-songs-locally-for-free"/>
+        <updated>2025-07-29T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>我是一个很喜欢听歌的人，尝试过很多主流的音乐软件，像什么QQ音乐、酷狗音乐、网易云音乐，但是他们都满足不了我的需求，经常会有版权问题，之前能听的歌不知道哪天就会不能听了。还有就是现在大多数歌都需要会员，会员到期后歌也不能听了。最主要的一个原因是，这些音乐软件太臃肿了，什么功能都往里面加，感觉听歌都变得次要了，存在种种不便。</p>
+<p>现在分享一下我的做法，个人体验还不错。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/listen-to-songs-locally-for-free" target="_blank">https://wlyff.top/posts/listen-to-songs-locally-for-free</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Win11右键菜单改为Win10样式]]></title>
+        <id>https://wlyff.top/posts/right-click-menu</id>
+        <link href="https://wlyff.top/posts/right-click-menu"/>
+        <updated>2025-10-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>最近觉得Win11的右键菜单太难用了，每次都要点显示更多选项才能找到想要的功能，然后就想着改回Win10的那种样子。</p>
+<h2>配置方法</h2>
+<p>首先按组合键<code>Win+X</code>，在弹出的界面中选择<strong>终端管理员(A)</strong>，打开终端，然后输入下面的命令，回车确定，显示“操作成功完成”。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/right-click-menu" target="_blank">https://wlyff.top/posts/right-click-menu</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[沙拉查词使用技巧]]></title>
+        <id>https://wlyff.top/posts/saladict-tips</id>
+        <link href="https://wlyff.top/posts/saladict-tips"/>
+        <updated>2025-08-09T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>分享一个翻译的神器。</p>
+<p>这类工具其实有很多，比较好用的一般就是<a href="https://immersivetranslate.com"><strong>沉浸式翻译</strong></a>这个浏览器插件了，但最近又被爆出来会泄露用户数据。这次分享的一个神器是<a href="https://saladict.crimx.com"><strong>沙拉查词</strong></a>。</p>
+<br/><p>访问 <a href="https://wlyff.top/posts/saladict-tips" target="_blank">https://wlyff.top/posts/saladict-tips</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>w乐意</name>
+            <email>2931366539@qq.com</email>
+            <uri>https://wlyff.top/</uri>
+        </author>
+        <published>2026-01-29T06:43:16.775Z</published>
+    </entry>
+</feed>
