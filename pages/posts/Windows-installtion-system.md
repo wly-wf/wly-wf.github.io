@@ -91,7 +91,7 @@ tags:
 
 选择Windows11，在下面可以看到不同版本的Windows11镜像文件下载地址，我们可以复制链接到迅雷中下载，下载完成后我们同样会得到一个后缀为.iso的镜像文件，将该镜像文件复制进U盘中即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_itellyou_iso.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Win11_itellyou_iso.webp)
 
 ### 设置U盘为第一启动项
 
@@ -99,7 +99,7 @@ tags:
 
 将U盘插入到将要重装系统的电脑中，开机，根据电脑型号不同快速点击对应的快捷键，直到出现启动项选择界面。你将会看见一个为UEFI-xxx的盘符，其中xxx是你U盘的型号，我们用鼠标点击该盘符即可。然后<u>**它会自动进入PE系统**</u>里。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Udrive_boot_key.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Udrive_boot_key.webp)
 
 #### BIOS法
 
@@ -109,7 +109,7 @@ tags:
 
 经过上述操作，我们进入了PE系统，如下图所示。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/PE_system.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/PE_system.webp)
 
 首先我们要给硬盘进行分区，如果是重装系统的用户，硬盘已经是分好区的状态了，就可以跳过硬盘分区这一步，新装机用户是需要分区的。
 
@@ -123,7 +123,7 @@ tags:
 
 **高级设置**：设置一下两个分区的容量。卷标为系统的分区是未来的C盘，因此大小至少给200G，填写完成后卷标为软件的分区大小会自动计算。下面的<u>**在分区之间保留空闲扇区**</u>保持默认，不改动；将<u>**对齐分区到此扇区数的整数倍**</u>的2048改成4096即可。最后点击确定，固态硬盘就分区完毕了。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/disk_genius.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/disk_genius.webp)
 
 如果你还有其他硬盘需要分区，按上述操作进行即可。需要注意的是，卷标不要使用系统和软件了，因为已经被固态硬盘用掉了，如果是机械硬盘，2048保持不变即可。到这里硬盘分区就结束了，下一步需要进行系统装载了。
 
@@ -131,7 +131,7 @@ tags:
 
 第一个选择<u>**还原分区**</u>；第二个用鼠标选中卷标为系统的盘符，也就是C盘。如果是重装系统的用户，一定选中C盘，选错的话硬盘内容都将消失不见；第三个选择镜像文件，选择Windows.iso镜像文件，在弹出来的选择版本窗口中选择版本，建议选择Pro版本，就是专业版的意思。最后点击执行，在最终确认窗口保持默认点击确定即可。
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/CGI.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/CGI.webp)
 
 还原完成后软件会自动关闭，然后我们在开始菜单手动重启电脑，在重启的过程中，快速点击delete键进入BIOS界面，将刚刚的UEFI第一启动项拖动到最后面，同时把已经装好系统的盘符拖动到最前面，设置为第一启动项，否则重启之后依然会进入到PE系统的界面。如果是使用快捷键法设置的第一启动项，则无需再次进入BIOS。保存退出后电脑会重启并进入系统。
 
@@ -147,7 +147,7 @@ tags:
 
 具体激活步骤如下：
 
-![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/mas.png)
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/mas.webp)
 
 ## 总结
 

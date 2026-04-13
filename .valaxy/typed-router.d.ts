@@ -32,13 +32,14 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/C_C++_VSCode': RouteRecordInfo<'/posts/C_C++_VSCode', '/posts/C_C++_VSCode', Record<never, never>, Record<never, never>>,
+    '/posts/C-C++-VSCode': RouteRecordInfo<'/posts/C-C++-VSCode', '/posts/C-C++-VSCode', Record<never, never>, Record<never, never>>,
     '/posts/gemini-tips': RouteRecordInfo<'/posts/gemini-tips', '/posts/gemini-tips', Record<never, never>, Record<never, never>>,
-    '/posts/git_usage_tutorial': RouteRecordInfo<'/posts/git_usage_tutorial', '/posts/git_usage_tutorial', Record<never, never>, Record<never, never>>,
-    '/posts/github_student_certification': RouteRecordInfo<'/posts/github_student_certification', '/posts/github_student_certification', Record<never, never>, Record<never, never>>,
+    '/posts/git-usage-tutorial': RouteRecordInfo<'/posts/git-usage-tutorial', '/posts/git-usage-tutorial', Record<never, never>, Record<never, never>>,
     '/posts/github-home-bea-tutorial': RouteRecordInfo<'/posts/github-home-bea-tutorial', '/posts/github-home-bea-tutorial', Record<never, never>, Record<never, never>>,
+    '/posts/github-student-certification': RouteRecordInfo<'/posts/github-student-certification', '/posts/github-student-certification', Record<never, never>, Record<never, never>>,
     '/posts/IDM-activate-script': RouteRecordInfo<'/posts/IDM-activate-script', '/posts/IDM-activate-script', Record<never, never>, Record<never, never>>,
     '/posts/listen-to-songs-locally-for-free': RouteRecordInfo<'/posts/listen-to-songs-locally-for-free', '/posts/listen-to-songs-locally-for-free', Record<never, never>, Record<never, never>>,
+    '/posts/resource-station': RouteRecordInfo<'/posts/resource-station', '/posts/resource-station', Record<never, never>, Record<never, never>>,
     '/posts/right-click-menu': RouteRecordInfo<'/posts/right-click-menu', '/posts/right-click-menu', Record<never, never>, Record<never, never>>,
     '/posts/saladict-tips': RouteRecordInfo<'/posts/saladict-tips', '/posts/saladict-tips', Record<never, never>, Record<never, never>>,
     '/posts/set-proxy-terminal': RouteRecordInfo<'/posts/set-proxy-terminal', '/posts/set-proxy-terminal', Record<never, never>, Record<never, never>>,
@@ -116,24 +117,24 @@ declare module 'vue-router/auto-routes' {
       routes: '/posts/'
       views: never
     }
-    'pages/posts/C_C++_VSCode.md': {
-      routes: '/posts/C_C++_VSCode'
+    'pages/posts/C-C++-VSCode.md': {
+      routes: '/posts/C-C++-VSCode'
       views: never
     }
     'pages/posts/gemini-tips.md': {
       routes: '/posts/gemini-tips'
       views: never
     }
-    'pages/posts/git_usage_tutorial.md': {
-      routes: '/posts/git_usage_tutorial'
-      views: never
-    }
-    'pages/posts/github_student_certification.md': {
-      routes: '/posts/github_student_certification'
+    'pages/posts/git-usage-tutorial.md': {
+      routes: '/posts/git-usage-tutorial'
       views: never
     }
     'pages/posts/github-home-bea-tutorial.md': {
       routes: '/posts/github-home-bea-tutorial'
+      views: never
+    }
+    'pages/posts/github-student-certification.md': {
+      routes: '/posts/github-student-certification'
       views: never
     }
     'pages/posts/IDM-activate-script.md': {
@@ -142,6 +143,10 @@ declare module 'vue-router/auto-routes' {
     }
     'pages/posts/listen-to-songs-locally-for-free.md': {
       routes: '/posts/listen-to-songs-locally-for-free'
+      views: never
+    }
+    'pages/posts/resource-station.md': {
+      routes: '/posts/resource-station'
       views: never
     }
     'pages/posts/right-click-menu.md': {
