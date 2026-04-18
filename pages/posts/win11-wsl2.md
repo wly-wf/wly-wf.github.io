@@ -1,14 +1,14 @@
 ---
-title: Windows 11安装WSL2
+title: Windows 11安装WSL2及简单配置
 date: 2026-4-14
-update: 2026-4-14
+update: 2026-4-18
 categories: 教程
 tags:
   - Windows
   - WSL2
 ---
 
-今天记录一下如何在Windows11系统上安装WSL2，并将其从默认安装位置C盘转移到D盘。
+今天记录一下如何在Windows11系统上安装WSL2，并将其从默认安装位置C盘转移到D盘，然后对其进行简单配置。
 
 ## 前置准备
 
@@ -25,6 +25,8 @@ tags:
 方法一：
 
 在开始界面搜索**功能**，找到**启用或关闭Windows功能**并打开，开启上述两项功能。
+
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/Windows-func.webp)
 
 方法二：
 
@@ -115,3 +117,174 @@ wsl --import Ubuntu-24.04 D:\WSL\Ubuntu-24.04 D:\WSL\Ubuntu-24.04\Ubuntu-24.04.t
 ```bash
 wsl -d Ubuntu-24.04
 ```
+
+## WSL的简单配置
+
+新安装的Ubuntu24.04已经默认自带了git和vim工具，因此我们可以很方便的从GitHub上拉取仓库以及进行文件的编辑。
+
+### 安装OpenCode
+
+在如今的时代，AI已经非常强大了，为了辅助我们安装，建议先安装一个AI编程助手，比较有名的有[Claude Code](https://claude.com/product/claude-code)、[Codex](https://github.com/openai/codex)。但是我今天推荐的是一个开源AI编程助手：[OpenCode](https://opencode.ai)，它可以很方便地配置不同的提供商的模型。
+
+首先我们安装curl工具。在Ubuntu终端中输入：
+
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+更新一下包管理器。然后安装curl。
+
+```bash
+sudo apt install -y curl
+```
+
+安装完这个之后，我们可以输入下面的命令来安装OpenCode：
+
+```bash
+curl -fsSL https://opencode.ai/install | bash
+```
+
+### 简单配置
+
+安装完成之后，我们在工作文件夹下输入opencode就可以开始使用了
+
+首先输入/connect，可以选择大模型的提供商，我们这里选择DeepSeek，然后在[DeepSeek开放平台](https://platform.deepseek.com)上获取一个API Key，输入后就可以开始使用了。输入/models可以选择不同的模型，这里选择DeepSeek Chat。
+
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/opencode-connect.webp)
+
+然后我们就可以跟它对话了，让它帮助我们操作。首先我们先让它帮我们安装一下[nvm](https://github.com/nvm-sh/nvm)，这是前端和Node.js开发者最常用的工具。它的作用就是可以在同一台电脑上安装、切换和管理多个Node.js版本，避免不同项目因Node版本不同而产生依赖冲突。
+
+正常来说，它会去自动帮我们安装好。当然，我们也可以自己手动安装，在终端中输入下面的命令，其中v0.40.4是目前nvm的最新版本：
+
+```bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+```
+
+我们可以输入下面的命令来查看是否安装成功：
+
+```bash
+nvm --version
+```
+
+> 注意：以下操作都可以让opencode帮你完成，下面介绍手动操作。
+
+然后我们安装Node.js最新LTS版本（长期支持版）
+
+```bash
+nvm install --lts
+```
+
+输入下面的命令查看版本
+
+```bash
+node --version
+```
+
+### 终端美化
+
+由于我自己是一个追求好看的人，下面的部分仅供参考。
+
+首先安装一下zsh，zsh是一种Unix shell，它兼容bash，但提供了更强大的交互功能和扩展性。
+
+```bash
+sudo apt install -y zsh
+```
+
+然后安装一下ohmyzsh，这个社区框架功能非常强大。
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+然后设置zsh为默认的shell：
+
+```bash
+sudo -S chsh -s $(which zsh) $USER
+```
+
+然后我们安装几个必装的插件。
+
+1、powerlevel10k（主题）
+
+输入：
+
+```zsh
+git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
+```
+
+将模板复制到我们的zshrc中，输入
+
+```zsh
+cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+```
+
+输入下面命令来安装powerlevel10k:
+
+```zsh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+```
+
+然后在 ~/.zshrc 中修改：
+
+```zsh
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+
+保存后输入下面的命令使配置生效
+
+```zsh
+source ~/.zshrc
+```
+
+然后会自动进入powerlevel10k的主题配置阶段，它会问你一些问题，你选择你喜欢的类型就可以了。
+
+2、zsh-autosuggestions（命令补全）以及zsh-syntax-highlighting（语法高亮）
+
+zsh-autosuggestions会根据你的命令历史记录和补全内容，在你输入命令时，以灰色文字在光标后显示建议的命令。zsh-syntax-highlighting会在你输入命令的同时实时进行语法高亮显示。
+
+输入下面命令安装zsh-autosuggestions：
+
+```zsh
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+输入下面命令安装zsh-syntax-highlighting：
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+然后在.zshrc中修改：
+
+![](https://image-wlyblog-1370229696.cos.ap-guangzhou.myqcloud.com/img/zshrc-plugins.webp)
+
+然后重新加载.zshrc的配置
+
+```zsh
+source ~/.zshrc
+```
+
+上面的操作都可以让OpenCode帮忙操作，可以自行实践
+
+### 迁移
+
+在安装zsh之前，我们安装了nvm和OpenCode，但是我们现在切换到了zsh，因此我们需要将这两个东西迁移到zsh中，这样才可以在zsh中使用
+
+只需要把~./bashrc中的nvm和OpenCode配置复制到zsh中可以了。
+
+nvm：
+
+```zsh
+# nvm configuration
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+OpenCode：
+
+```zsh
+# opencode
+export PATH=/home/wly/.opencode/bin:$PATH
+```
+
+如果只想在zsh中使用，想清除bash的配置的话，可以直接删除原来的配置。
